@@ -2,44 +2,40 @@
 
 Welcome to the official repository for our SLAM system integration project, part of Tel Aviv University's autonomous vehicle initiative.
 
-> **Project Number**: 24-1-1-3049  
-> **Team**: Tuval Eliyahu, Orit Tzikinovsky  
+> **Team**: Tuval, Orit   
 > **Advisor**: Roi Raich  
-> **Lab**: Autonomous Vehicle Lab, Tel Aviv University
+> **Lab**: Tel Aviv University
 
 ---
 
-## 🧠 Project Overview
+##  Project Overview
 
 This project focuses on integrating real-time SLAM algorithms into a self-driving vehicle, allowing it to map and localize itself in dynamic environments using LiDAR and IMU sensors.
 
 Our goal is to implement and test **LIO-RF** and **Fast-LIO**, two cutting-edge SLAM algorithms, using:
-
 - **Ouster OS1-128 LiDAR**
 - **Vectornav INS-DL IMU**
-- **Jetson Xavier (on-car)**
+- **Jetson Nano (on-car)**
 - **KITTI / NCLT datasets** (for simulation & testing)
-
 ---
 
-## 🔍 Algorithm Selection
+##  Algorithm Selection
 
 We conducted a comprehensive comparison of multiple SLAM approaches and selected:
 
-### ✅ LIO-RF
+###  LIO-RF
 - Optimized for dynamic environments.
 - Uses IMU for initial estimation and scan matching.
 - Includes loop closure with graph optimization.
 
-### ✅ Fast-LIO
+###  Fast-LIO
 - Efficient real-time LiDAR-Inertial Odometry using a Kalman filter.
 - High-speed point cloud registration with incremental KD-tree mapping.
 
 Both were tested on datasets and deployed to the autonomous car for live evaluation.
-
 ---
 
-## 🚗 System Architecture
+##  System Architecture
 
 Our system consists of:
 - ROS2-based SLAM framework
