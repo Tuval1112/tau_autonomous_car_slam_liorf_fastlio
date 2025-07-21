@@ -1,0 +1,4 @@
+Invoking command in '/home/vboxuser/liorf-ros2/build/liorf': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/vboxuser/liorf-ros2/src/liorf -DCMAKE_INSTALL_PREFIX=/home/vboxuser/liorf-ros2/install/liorf
+Invoked command in '/home/vboxuser/liorf-ros2/build/liorf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/vboxuser/liorf-ros2/src/liorf -DCMAKE_INSTALL_PREFIX=/home/vboxuser/liorf-ros2/install/liorf
+Invoking command in '/home/vboxuser/liorf-ros2/build/liorf': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vboxuser/liorf-ros2/build/liorf -- -j12 -l12
+Invoked command in '/home/vboxuser/liorf-ros2/build/liorf' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vboxuser/liorf-ros2/build/liorf -- -j12 -l12

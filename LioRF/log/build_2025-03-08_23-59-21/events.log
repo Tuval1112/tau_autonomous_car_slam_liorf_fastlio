@@ -1,0 +1,1493 @@
+[0.000000] (-) TimerEvent: {}
+[0.000095] (liorf) JobQueued: {'identifier': 'liorf', 'dependencies': OrderedDict()}
+[0.000118] (liorf) JobStarted: {'identifier': 'liorf'}
+[0.005445] (liorf) JobProgress: {'identifier': 'liorf', 'progress': 'cmake'}
+[0.005861] (liorf) Command: {'cmd': ['/usr/bin/cmake', '/home/vboxuser/liorf-ros2/src/liorf', '-DCMAKE_INSTALL_PREFIX=/home/vboxuser/liorf-ros2/install/liorf'], 'cwd': '/home/vboxuser/liorf-ros2/build/liorf', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IL:en'), ('USER', 'vboxuser'), ('SSH_AGENT_PID', '1758'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/vboxuser'), ('OLDPWD', '/home/vboxuser'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1560'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vboxuser/liorf-ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vboxuser'), ('JOURNAL_STREAM', '8:34430'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu20:@/tmp/.ICE-unix/1860,unix/ubuntu20:/tmp/.ICE-unix/1860'), ('INVOCATION_ID', '16a34f6bc6a04a469bc65f7fbf1f5b6c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6c3608eb_6749_40fc_9795_c889940ef1c2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IL'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.141'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/liorf-ros2/build/liorf'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.026162] (liorf) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.049143] (liorf) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.049300] (liorf) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.100146] (-) TimerEvent: {}
+[0.191293] (liorf) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.195483] (liorf) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.200410] (-) TimerEvent: {}
+[0.202701] (liorf) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.287000] (liorf) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.301441] (-) TimerEvent: {}
+[0.312991] (liorf) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.389929] (liorf) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.401956] (-) TimerEvent: {}
+[0.413448] (liorf) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.476332] (liorf) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.478651] (liorf) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.480133] (liorf) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.502641] (-) TimerEvent: {}
+[0.533601] (liorf) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.533929] (liorf) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.584851] (liorf) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.585201] (liorf) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.603588] (-) TimerEvent: {}
+[0.625159] (liorf) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.625353] (liorf) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.674957] (liorf) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.675704] (liorf) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.704833] (-) TimerEvent: {}
+[0.808328] (-) TimerEvent: {}
+[0.810878] (liorf) StdoutLine: {'line': b'-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[0.812426] (liorf) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[0.909881] (-) TimerEvent: {}
+[0.923292] (liorf) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[0.977798] (liorf) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[1.011218] (-) TimerEvent: {}
+[1.028860] (liorf) StdoutLine: {'line': b'-- Found pcl_msgs: 1.0.0 (/opt/ros/foxy/share/pcl_msgs/cmake)\n'}
+[1.111740] (-) TimerEvent: {}
+[1.112267] (liorf) StdoutLine: {'line': b'-- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)\n'}
+[1.151476] (liorf) StdoutLine: {'line': b'-- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[1.162996] (liorf) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)\n'}
+[1.170600] (liorf) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[1.174686] (liorf) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[1.212143] (-) TimerEvent: {}
+[1.314738] (-) TimerEvent: {}
+[1.415436] (-) TimerEvent: {}
+[1.467755] (liorf) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)\n'}
+[1.481912] (liorf) StdoutLine: {'line': b'-- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)\n'}
+[1.487808] (liorf) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.2.0") \n'}
+[1.498313] (liorf) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[1.506731] (liorf) StdoutLine: {'line': b'--   Found eigen3, version 3.3.7\n'}
+[1.516195] (-) TimerEvent: {}
+[1.528608] (liorf) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[1.528709] (liorf) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[1.560638] (liorf) StdoutLine: {'line': b'-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex \n'}
+[1.571669] (liorf) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[1.581051] (liorf) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[1.605032] (liorf) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[1.616962] (-) TimerEvent: {}
+[1.644595] (liorf) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[1.646200] (liorf) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[1.646248] (liorf) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.646278] (liorf) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.646308] (liorf) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.646337] (liorf) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.646364] (liorf) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.646392] (liorf) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.646418] (liorf) StdoutLine: {'line': b'\n'}
+[1.646846] (liorf) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[1.646932] (liorf) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[1.646967] (liorf) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.646998] (liorf) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.647025] (liorf) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.647060] (liorf) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.647087] (liorf) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.647114] (liorf) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.647141] (liorf) StdoutLine: {'line': b'\n'}
+[1.647372] (liorf) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[1.647416] (liorf) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[1.647444] (liorf) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.647473] (liorf) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.647500] (liorf) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.647526] (liorf) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.647552] (liorf) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.647579] (liorf) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.647610] (liorf) StdoutLine: {'line': b'\n'}
+[1.647768] (liorf) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[1.647849] (liorf) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[1.647883] (liorf) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[1.647914] (liorf) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[1.647954] (liorf) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[1.647980] (liorf) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[1.648006] (liorf) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[1.648033] (liorf) StdoutLine: {'line': b'but not all the files it references.\n'}
+[1.648061] (liorf) StdoutLine: {'line': b'\n'}
+[1.677379] (liorf) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.679255] (liorf) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[1.681412] (liorf) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[1.681480] (liorf) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[1.681568] (liorf) StderrLine: {'line': b'** WARNING ** io features related to openni will be disabled\n'}
+[1.684860] (liorf) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.686484] (liorf) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[1.688455] (liorf) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[1.688568] (liorf) StdoutLine: {'line': b'-- OpenNI 2 disabled because libusb-1.0 not found.\n'}
+[1.689162] (liorf) StderrLine: {'line': b'** WARNING ** io features related to openni2 will be disabled\n'}
+[1.689241] (liorf) StderrLine: {'line': b'** WARNING ** io features related to pcap will be disabled\n'}
+[1.689335] (liorf) StderrLine: {'line': b'** WARNING ** io features related to png will be disabled\n'}
+[1.697343] (liorf) StdoutLine: {'line': b'-- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) \n'}
+[1.697609] (liorf) StderrLine: {'line': b'** WARNING ** io features related to libusb-1.0 will be disabled\n'}
+[1.701126] (liorf) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.703190] (liorf) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[1.705263] (liorf) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[1.705327] (liorf) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[1.705536] (liorf) StderrLine: {'line': b'** WARNING ** visualization features related to openni will be disabled\n'}
+[1.708082] (liorf) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.709923] (liorf) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[1.711686] (liorf) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[1.711744] (liorf) StdoutLine: {'line': b'-- OpenNI 2 disabled because libusb-1.0 not found.\n'}
+[1.711837] (liorf) StderrLine: {'line': b'** WARNING ** visualization features related to openni2 will be disabled\n'}
+[1.717464] (-) TimerEvent: {}
+[1.727013] (liorf) StdoutLine: {'line': b'-- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  \n'}
+[1.727088] (liorf) StdoutLine: {'line': b'-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)\n'}
+[1.730027] (liorf) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.731743] (liorf) StdoutLine: {'line': b"--   No package 'libusb-1.0' found\n"}
+[1.733384] (liorf) StdoutLine: {'line': b'-- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) \n'}
+[1.733458] (liorf) StdoutLine: {'line': b'-- OpenNI disabled because libusb-1.0 not found.\n'}
+[1.733491] (liorf) StderrLine: {'line': b'** WARNING ** apps features related to openni will be disabled\n'}
+[1.741202] (liorf) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[1.741692] (liorf) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[1.741765] (liorf) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[1.742173] (liorf) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[1.742314] (liorf) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[1.742918] (liorf) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[1.742958] (liorf) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[1.743573] (liorf) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[1.743799] (liorf) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[1.744342] (liorf) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[1.744525] (liorf) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[1.745040] (liorf) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[1.745252] (liorf) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[1.745466] (liorf) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.10  \n'}
+[1.745647] (liorf) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[1.745832] (liorf) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.10  \n'}
+[1.745939] (liorf) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[1.746543] (liorf) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[1.746687] (liorf) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[1.747294] (liorf) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[1.747518] (liorf) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[1.748106] (liorf) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[1.748236] (liorf) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[1.748966] (liorf) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[1.749089] (liorf) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[1.749736] (liorf) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[1.749920] (liorf) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[1.750543] (liorf) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[1.750698] (liorf) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[1.751330] (liorf) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[1.751524] (liorf) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[1.752142] (liorf) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[1.752319] (liorf) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[1.753058] (liorf) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[1.753161] (liorf) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[1.753996] (liorf) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[1.754170] (liorf) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[1.754937] (liorf) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[1.755101] (liorf) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[1.755938] (liorf) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[1.757609] (liorf) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[1.757805] (liorf) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  \n'}
+[1.757877] (liorf) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[1.760262] (liorf) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  \n'}
+[1.760354] (liorf) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[1.761069] (liorf) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[1.761312] (liorf) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[1.762061] (liorf) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[1.762864] (liorf) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  \n'}
+[1.790604] (liorf) StdoutLine: {'line': b'-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.43") found components: serialization system filesystem thread program_options date_time timer chrono regex atomic \n'}
+[1.792091] (liorf) StdoutLine: {'line': b'-- GTSAM include directory:  /usr/lib/cmake/GTSAM/../../../include\n'}
+[1.795887] (liorf) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3  \n'}
+[1.795962] (liorf) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[1.817978] (-) TimerEvent: {}
+[1.919460] (-) TimerEvent: {}
+[1.969672] (liorf) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[2.019942] (-) TimerEvent: {}
+[2.025334] (liorf) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[2.025654] (liorf) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5")  \n'}
+[2.030612] (liorf) StdoutLine: {'line': b'-- Found Boost: /usr/include (found version "1.71.0") found components: timer chrono \n'}
+[2.032321] (liorf) StdoutLine: {'line': b'-- Found GeographicLib: /usr/lib/x86_64-linux-gnu  \n'}
+[2.046503] (liorf) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[2.121699] (-) TimerEvent: {}
+[2.207959] (liorf) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[2.222653] (-) TimerEvent: {}
+[2.324479] (-) TimerEvent: {}
+[2.413889] (liorf) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.424886] (-) TimerEvent: {}
+[2.513520] (liorf) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.526127] (-) TimerEvent: {}
+[2.531142] (liorf) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.534277] (liorf) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[2.554754] (liorf) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.554871] (liorf) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.554917] (liorf) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.554948] (liorf) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[2.571767] (liorf) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.626338] (-) TimerEvent: {}
+[2.727328] (-) TimerEvent: {}
+[2.798093] (liorf) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.824390] (liorf) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.826788] (liorf) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.827754] (-) TimerEvent: {}
+[2.829572] (liorf) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/vboxuser/liorf-ros2/src/liorf/lib;/home/vboxuser/liorf-ros2/src/liorf/include\n'}
+[2.829646] (liorf) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.831619] (liorf) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.831690] (liorf) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.832359] (liorf) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.833491] (liorf) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.834174] (liorf) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[2.836386] (liorf) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.836465] (liorf) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.837075] (liorf) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.841702] (liorf) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.929013] (-) TimerEvent: {}
+[3.031142] (-) TimerEvent: {}
+[3.044590] (liorf) StdoutLine: {'line': b'-- Generating done\n'}
+[3.130448] (liorf) StdoutLine: {'line': b'-- Build files have been written to: /home/vboxuser/liorf-ros2/build/liorf\n'}
+[3.132743] (-) TimerEvent: {}
+[3.140356] (liorf) CommandEnded: {'returncode': 0}
+[3.142712] (liorf) JobProgress: {'identifier': 'liorf', 'progress': 'build'}
+[3.142738] (liorf) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vboxuser/liorf-ros2/build/liorf', '--', '-j12', '-l12'], 'cwd': '/home/vboxuser/liorf-ros2/build/liorf', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IL:en'), ('USER', 'vboxuser'), ('SSH_AGENT_PID', '1758'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/vboxuser'), ('OLDPWD', '/home/vboxuser'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1560'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vboxuser/liorf-ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vboxuser'), ('JOURNAL_STREAM', '8:34430'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu20:@/tmp/.ICE-unix/1860,unix/ubuntu20:/tmp/.ICE-unix/1860'), ('INVOCATION_ID', '16a34f6bc6a04a469bc65f7fbf1f5b6c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6c3608eb_6749_40fc_9795_c889940ef1c2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IL'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.141'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/liorf-ros2/build/liorf'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[3.178575] (liorf) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.178831] (liorf) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target liorf__cpp\x1b[0m\n'}
+[3.187161] (liorf) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.232881] (-) TimerEvent: {}
+[3.333697] (-) TimerEvent: {}
+[3.429241] (liorf) StdoutLine: {'line': b'[  4%] Built target liorf__cpp\n'}
+[3.431988] (liorf) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target liorf__rosidl_generator_c\x1b[0m\n'}
+[3.434040] (-) TimerEvent: {}
+[3.435886] (liorf) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.436303] (liorf) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.436396] (liorf) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.457941] (liorf) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/liorf__rosidl_generator_c.dir/rosidl_generator_c/liorf/srv/detail/save_map__functions.c.o\x1b[0m\n'}
+[3.458084] (liorf) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/liorf__rosidl_generator_c.dir/rosidl_generator_c/liorf/msg/detail/cloud_info__functions.c.o\x1b[0m\n'}
+[3.535153] (-) TimerEvent: {}
+[3.591319] (liorf) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libliorf__rosidl_generator_c.so\x1b[0m\n'}
+[3.623390] (liorf) StdoutLine: {'line': b'[ 16%] Built target liorf__rosidl_generator_c\n'}
+[3.633202] (liorf) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.633361] (liorf) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.635540] (-) TimerEvent: {}
+[3.646024] (liorf) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target liorf__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.657731] (liorf) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target liorf__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.665217] (liorf) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/liorf__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/liorf/srv/save_map__type_support.cpp.o\x1b[0m\n'}
+[3.665421] (liorf) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/liorf__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/liorf/msg/cloud_info__type_support.cpp.o\x1b[0m\n'}
+[3.677588] (liorf) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/liorf__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/liorf/msg/detail/cloud_info__type_support.cpp.o\x1b[0m\n'}
+[3.677820] (liorf) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/liorf__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/liorf/srv/detail/save_map__type_support.cpp.o\x1b[0m\n'}
+[3.682796] (liorf) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target liorf__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.716493] (liorf) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/liorf__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/liorf/msg/detail/dds_fastrtps/cloud_info__type_support.cpp.o\x1b[0m\n'}
+[3.719036] (liorf) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/liorf__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/liorf/srv/detail/dds_fastrtps/save_map__type_support.cpp.o\x1b[0m\n'}
+[3.735853] (-) TimerEvent: {}
+[3.837218] (-) TimerEvent: {}
+[3.914373] (liorf) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target liorf__rosidl_typesupport_c\x1b[0m\n'}
+[3.924858] (liorf) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target liorf__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.929943] (liorf) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/liorf__rosidl_typesupport_c.dir/rosidl_typesupport_c/liorf/srv/save_map__type_support.cpp.o\x1b[0m\n'}
+[3.931611] (liorf) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/liorf__rosidl_typesupport_c.dir/rosidl_typesupport_c/liorf/msg/cloud_info__type_support.cpp.o\x1b[0m\n'}
+[3.937337] (-) TimerEvent: {}
+[3.946177] (liorf) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/liorf__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/liorf/srv/detail/save_map__type_support.c.o\x1b[0m\n'}
+[3.948372] (liorf) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/liorf__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/liorf/msg/detail/cloud_info__type_support.c.o\x1b[0m\n'}
+[3.971271] (liorf) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libliorf__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.986279] (liorf) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libliorf__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.996402] (liorf) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking C shared library libliorf__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.011400] (liorf) StdoutLine: {'line': b'[ 46%] Built target liorf__rosidl_typesupport_c\n'}
+[4.024333] (liorf) StdoutLine: {'line': b'[ 46%] Built target liorf__rosidl_typesupport_introspection_c\n'}
+[4.024558] (liorf) StdoutLine: {'line': b'[ 46%] Built target liorf__rosidl_typesupport_cpp\n'}
+[4.033157] (liorf) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target liorf_imageProjection\x1b[0m\n'}
+[4.033383] (liorf) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target liorf_imuPreintegration\x1b[0m\n'}
+[4.033459] (liorf) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target liorf_mapOptmization\x1b[0m\n'}
+[4.037796] (-) TimerEvent: {}
+[4.138427] (-) TimerEvent: {}
+[4.147381] (liorf) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libliorf__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.186488] (liorf) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libliorf__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.203644] (liorf) StdoutLine: {'line': b'[ 51%] Built target liorf__rosidl_typesupport_introspection_cpp\n'}
+[4.238768] (-) TimerEvent: {}
+[4.270308] (liorf) StdoutLine: {'line': b'[ 51%] Built target liorf__rosidl_typesupport_fastrtps_cpp\n'}
+[4.281087] (liorf) StdoutLine: {'line': b'[ 53%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.298976] (liorf) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/liorf_imuPreintegration.dir/lib/common_lib.cpp.o\x1b[0m\n'}
+[4.299134] (liorf) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/liorf_imuPreintegration.dir/src/imuPreintegration.cpp.o\x1b[0m\n'}
+[4.299178] (liorf) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/liorf_imageProjection.dir/src/imageProjection.cpp.o\x1b[0m\n'}
+[4.301639] (liorf) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/liorf_imageProjection.dir/lib/common_lib.cpp.o\x1b[0m\n'}
+[4.317097] (liorf) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/liorf_mapOptmization.dir/lib/common_lib.cpp.o\x1b[0m\n'}
+[4.317302] (liorf) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/liorf_mapOptmization.dir/include/Scancontext.cpp.o\x1b[0m\n'}
+[4.317758] (liorf) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/liorf_mapOptmization.dir/src/mapOptmization.cpp.o\x1b[0m\n'}
+[4.339309] (-) TimerEvent: {}
+[4.440844] (-) TimerEvent: {}
+[4.543628] (-) TimerEvent: {}
+[4.584618] (liorf) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target liorf__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[4.604786] (liorf) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/liorf__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/liorf/msg/detail/cloud_info__type_support_c.cpp.o\x1b[0m\n'}
+[4.605415] (liorf) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/liorf__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/liorf/srv/detail/save_map__type_support_c.cpp.o\x1b[0m\n'}
+[4.643854] (-) TimerEvent: {}
+[4.744433] (-) TimerEvent: {}
+[4.844855] (-) TimerEvent: {}
+[4.945297] (-) TimerEvent: {}
+[5.045771] (-) TimerEvent: {}
+[5.046648] (liorf) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libliorf__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.145996] (-) TimerEvent: {}
+[5.149176] (liorf) StdoutLine: {'line': b'[ 73%] Built target liorf__rosidl_typesupport_fastrtps_c\n'}
+[5.159159] (liorf) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target liorf\x1b[0m\n'}
+[5.173642] (liorf) StdoutLine: {'line': b'[ 73%] Built target liorf\n'}
+[5.202804] (liorf) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target liorf__py\x1b[0m\n'}
+[5.214947] (liorf) StdoutLine: {'line': b'[ 75%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.246244] (-) TimerEvent: {}
+[5.347120] (-) TimerEvent: {}
+[5.447639] (-) TimerEvent: {}
+[5.548194] (-) TimerEvent: {}
+[5.648605] (-) TimerEvent: {}
+[5.750748] (-) TimerEvent: {}
+[5.851235] (-) TimerEvent: {}
+[5.951540] (-) TimerEvent: {}
+[5.979206] (liorf) StdoutLine: {'line': b'[ 75%] Built target liorf__py\n'}
+[5.995051] (liorf) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target liorf__python\x1b[0m\n'}
+[6.052070] (-) TimerEvent: {}
+[6.058500] (liorf) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/liorf__python.dir/rosidl_generator_py/liorf/msg/_cloud_info_s.c.o\x1b[0m\n'}
+[6.058798] (liorf) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/liorf__python.dir/rosidl_generator_py/liorf/srv/_save_map_s.c.o\x1b[0m\n'}
+[6.152463] (-) TimerEvent: {}
+[6.214344] (liorf) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/liorf/libliorf__python.so\x1b[0m\n'}
+[6.253872] (-) TimerEvent: {}
+[6.263670] (liorf) StdoutLine: {'line': b'[ 81%] Built target liorf__python\n'}
+[6.277546] (liorf) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target liorf__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[6.277768] (liorf) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target liorf__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[6.278980] (liorf) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target liorf__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[6.307061] (liorf) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/liorf__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/liorf/_liorf_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.310827] (liorf) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/liorf__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/liorf/_liorf_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.311328] (liorf) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/liorf__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/liorf/_liorf_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.354354] (-) TimerEvent: {}
+[6.455036] (-) TimerEvent: {}
+[6.467599] (liorf) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/liorf/liorf_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.475842] (liorf) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/liorf/liorf_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.476442] (liorf) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/liorf/liorf_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.522999] (liorf) StdoutLine: {'line': b'[ 93%] Built target liorf__rosidl_typesupport_c__pyext\n'}
+[6.526898] (liorf) StdoutLine: {'line': b'[ 93%] Built target liorf__rosidl_typesupport_introspection_c__pyext\n'}
+[6.555768] (-) TimerEvent: {}
+[6.556632] (liorf) StdoutLine: {'line': b'[ 93%] Built target liorf__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.657389] (-) TimerEvent: {}
+[6.758237] (-) TimerEvent: {}
+[6.860035] (-) TimerEvent: {}
+[6.961865] (-) TimerEvent: {}
+[7.062550] (-) TimerEvent: {}
+[7.163109] (-) TimerEvent: {}
+[7.264556] (-) TimerEvent: {}
+[7.365784] (-) TimerEvent: {}
+[7.466808] (-) TimerEvent: {}
+[7.567321] (-) TimerEvent: {}
+[7.668118] (-) TimerEvent: {}
+[7.769393] (-) TimerEvent: {}
+[7.870610] (-) TimerEvent: {}
+[7.971792] (-) TimerEvent: {}
+[8.072761] (-) TimerEvent: {}
+[8.173286] (-) TimerEvent: {}
+[8.274450] (-) TimerEvent: {}
+[8.375012] (-) TimerEvent: {}
+[8.475747] (-) TimerEvent: {}
+[8.576082] (-) TimerEvent: {}
+[8.676871] (-) TimerEvent: {}
+[8.777111] (-) TimerEvent: {}
+[8.877754] (-) TimerEvent: {}
+[8.978475] (-) TimerEvent: {}
+[9.078818] (-) TimerEvent: {}
+[9.179210] (-) TimerEvent: {}
+[9.280049] (-) TimerEvent: {}
+[9.383607] (-) TimerEvent: {}
+[9.484078] (-) TimerEvent: {}
+[9.585510] (-) TimerEvent: {}
+[9.686861] (-) TimerEvent: {}
+[9.787115] (-) TimerEvent: {}
+[9.887889] (-) TimerEvent: {}
+[9.988278] (-) TimerEvent: {}
+[10.089341] (-) TimerEvent: {}
+[10.190558] (-) TimerEvent: {}
+[10.291357] (-) TimerEvent: {}
+[10.391910] (-) TimerEvent: {}
+[10.492585] (-) TimerEvent: {}
+[10.593333] (-) TimerEvent: {}
+[10.694499] (-) TimerEvent: {}
+[10.794939] (-) TimerEvent: {}
+[10.895884] (-) TimerEvent: {}
+[10.996817] (-) TimerEvent: {}
+[11.097699] (-) TimerEvent: {}
+[11.198280] (-) TimerEvent: {}
+[11.298887] (-) TimerEvent: {}
+[11.399436] (-) TimerEvent: {}
+[11.499938] (-) TimerEvent: {}
+[11.600923] (-) TimerEvent: {}
+[11.702252] (-) TimerEvent: {}
+[11.802850] (-) TimerEvent: {}
+[11.904485] (-) TimerEvent: {}
+[12.005387] (-) TimerEvent: {}
+[12.009571] (liorf) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/preprocessor/tuple/elem.hpp:23\x1b[m\x1b[K,\n'}
+[12.013650] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21\x1b[m\x1b[K,\n'}
+[12.013744] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66\x1b[m\x1b[K,\n'}
+[12.013782] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/aux_/na_spec.hpp:28\x1b[m\x1b[K,\n'}
+[12.013814] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/not.hpp:20\x1b[m\x1b[K,\n'}
+[12.013844] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/assert.hpp:17\x1b[m\x1b[K,\n'}
+[12.013874] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/point_traits.h:48\x1b[m\x1b[K,\n'}
+[12.013904] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/point_cloud.h:50\x1b[m\x1b[K,\n'}
+[12.013933] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/lib/common_lib.h:5\x1b[m\x1b[K,\n'}
+[12.013969] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/include/utility.h:16\x1b[m\x1b[K,\n'}
+[12.013999] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:1\x1b[m\x1b[K:\n'}
+[12.014028] (liorf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:14:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing uint16_t = uint16_t\x1b[m\x1b[K\xe2\x80\x99 is deprecated: use std::uint16_t instead of pcl::uint16_t [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[12.014064] (liorf) StderrLine: {'line': b'   14 |     (\x1b[01;35m\x1b[Kuint16_t\x1b[m\x1b[K, ring, ring) (float, time, time)\n'}
+[12.014094] (liorf) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.014140] (liorf) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/PCLHeader.h:10\x1b[m\x1b[K,\n'}
+[12.014187] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/point_cloud.h:47\x1b[m\x1b[K,\n'}
+[12.014218] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/lib/common_lib.h:5\x1b[m\x1b[K,\n'}
+[12.014251] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/include/utility.h:16\x1b[m\x1b[K,\n'}
+[12.014281] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:1\x1b[m\x1b[K:\n'}
+[12.014309] (liorf) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/pcl_macros.h:94:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[12.014338] (liorf) StderrLine: {'line': b'   94 |   using \x1b[01;36m\x1b[Kuint16_t\x1b[m\x1b[K [[deprecated("use std::uint16_t instead of pcl::uint16_t")]] = std::uint16_t;\n'}
+[12.014367] (liorf) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.015996] (liorf) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/preprocessor/tuple/elem.hpp:23\x1b[m\x1b[K,\n'}
+[12.016084] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21\x1b[m\x1b[K,\n'}
+[12.016116] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66\x1b[m\x1b[K,\n'}
+[12.016147] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/aux_/na_spec.hpp:28\x1b[m\x1b[K,\n'}
+[12.016177] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/not.hpp:20\x1b[m\x1b[K,\n'}
+[12.016207] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/assert.hpp:17\x1b[m\x1b[K,\n'}
+[12.016242] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/point_traits.h:48\x1b[m\x1b[K,\n'}
+[12.016270] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/point_cloud.h:50\x1b[m\x1b[K,\n'}
+[12.016298] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/lib/common_lib.h:5\x1b[m\x1b[K,\n'}
+[12.016326] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/include/utility.h:16\x1b[m\x1b[K,\n'}
+[12.016354] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:1\x1b[m\x1b[K:\n'}
+[12.016383] (liorf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:29:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing uint32_t = uint32_t\x1b[m\x1b[K\xe2\x80\x99 is deprecated: use std::uint32_t instead of pcl::uint32_t [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[12.016414] (liorf) StderrLine: {'line': b'   29 |     (\x1b[01;35m\x1b[Kuint32_t\x1b[m\x1b[K, t, t) (uint16_t, reflectivity, reflectivity)\n'}
+[12.016443] (liorf) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.016471] (liorf) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/PCLHeader.h:10\x1b[m\x1b[K,\n'}
+[12.016499] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/point_cloud.h:47\x1b[m\x1b[K,\n'}
+[12.016527] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/lib/common_lib.h:5\x1b[m\x1b[K,\n'}
+[12.016563] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/include/utility.h:16\x1b[m\x1b[K,\n'}
+[12.016591] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:1\x1b[m\x1b[K:\n'}
+[12.016618] (liorf) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/pcl_macros.h:96:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[12.016645] (liorf) StderrLine: {'line': b'   96 |   using \x1b[01;36m\x1b[Kuint32_t\x1b[m\x1b[K [[deprecated("use std::uint32_t instead of pcl::uint32_t")]] = std::uint32_t;\n'}
+[12.016673] (liorf) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.017160] (liorf) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/preprocessor/tuple/elem.hpp:23\x1b[m\x1b[K,\n'}
+[12.017242] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21\x1b[m\x1b[K,\n'}
+[12.017288] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66\x1b[m\x1b[K,\n'}
+[12.017372] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/aux_/na_spec.hpp:28\x1b[m\x1b[K,\n'}
+[12.017406] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/not.hpp:20\x1b[m\x1b[K,\n'}
+[12.017436] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/assert.hpp:17\x1b[m\x1b[K,\n'}
+[12.017465] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/point_traits.h:48\x1b[m\x1b[K,\n'}
+[12.017494] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/point_cloud.h:50\x1b[m\x1b[K,\n'}
+[12.017522] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/lib/common_lib.h:5\x1b[m\x1b[K,\n'}
+[12.017554] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/include/utility.h:16\x1b[m\x1b[K,\n'}
+[12.017582] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:1\x1b[m\x1b[K:\n'}
+[12.017612] (liorf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:29:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing uint16_t = uint16_t\x1b[m\x1b[K\xe2\x80\x99 is deprecated: use std::uint16_t instead of pcl::uint16_t [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[12.017751] (liorf) StderrLine: {'line': b'   29 |     (uint32_t, t, t) (\x1b[01;35m\x1b[Kuint16_t\x1b[m\x1b[K, reflectivity, reflectivity)\n'}
+[12.017789] (liorf) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.017816] (liorf) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/PCLHeader.h:10\x1b[m\x1b[K,\n'}
+[12.017845] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/point_cloud.h:47\x1b[m\x1b[K,\n'}
+[12.017872] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/lib/common_lib.h:5\x1b[m\x1b[K,\n'}
+[12.017899] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/include/utility.h:16\x1b[m\x1b[K,\n'}
+[12.017927] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:1\x1b[m\x1b[K:\n'}
+[12.017955] (liorf) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/pcl_macros.h:94:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[12.017982] (liorf) StderrLine: {'line': b'   94 |   using \x1b[01;36m\x1b[Kuint16_t\x1b[m\x1b[K [[deprecated("use std::uint16_t instead of pcl::uint16_t")]] = std::uint16_t;\n'}
+[12.018010] (liorf) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.018037] (liorf) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/preprocessor/tuple/elem.hpp:23\x1b[m\x1b[K,\n'}
+[12.018064] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21\x1b[m\x1b[K,\n'}
+[12.018090] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66\x1b[m\x1b[K,\n'}
+[12.018117] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/aux_/na_spec.hpp:28\x1b[m\x1b[K,\n'}
+[12.018143] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/not.hpp:20\x1b[m\x1b[K,\n'}
+[12.018169] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/assert.hpp:17\x1b[m\x1b[K,\n'}
+[12.018196] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/point_traits.h:48\x1b[m\x1b[K,\n'}
+[12.018223] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/point_cloud.h:50\x1b[m\x1b[K,\n'}
+[12.018250] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/lib/common_lib.h:5\x1b[m\x1b[K,\n'}
+[12.018278] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/include/utility.h:16\x1b[m\x1b[K,\n'}
+[12.018305] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:1\x1b[m\x1b[K:\n'}
+[12.018331] (liorf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:30:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing uint8_t = uint8_t\x1b[m\x1b[K\xe2\x80\x99 is deprecated: use std::uint8_t instead of pcl::uint8_t [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[12.018361] (liorf) StderrLine: {'line': b'   30 |     (\x1b[01;35m\x1b[Kuint8_t\x1b[m\x1b[K, ring, ring) (uint16_t, noise, noise) (uint32_t, range, range)\n'}
+[12.018389] (liorf) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[12.018419] (liorf) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/PCLHeader.h:10\x1b[m\x1b[K,\n'}
+[12.018448] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/point_cloud.h:47\x1b[m\x1b[K,\n'}
+[12.018475] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/lib/common_lib.h:5\x1b[m\x1b[K,\n'}
+[12.018504] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/include/utility.h:16\x1b[m\x1b[K,\n'}
+[12.018530] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:1\x1b[m\x1b[K:\n'}
+[12.018556] (liorf) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/pcl_macros.h:92:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[12.018583] (liorf) StderrLine: {'line': b'   92 |   using \x1b[01;36m\x1b[Kuint8_t\x1b[m\x1b[K [[deprecated("use std::uint8_t instead of pcl::uint8_t")]] = std::uint8_t;\n'}
+[12.018611] (liorf) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[12.018638] (liorf) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/preprocessor/tuple/elem.hpp:23\x1b[m\x1b[K,\n'}
+[12.018664] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21\x1b[m\x1b[K,\n'}
+[12.018691] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66\x1b[m\x1b[K,\n'}
+[12.018718] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/aux_/na_spec.hpp:28\x1b[m\x1b[K,\n'}
+[12.018745] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/not.hpp:20\x1b[m\x1b[K,\n'}
+[12.018773] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/assert.hpp:17\x1b[m\x1b[K,\n'}
+[12.018800] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/point_traits.h:48\x1b[m\x1b[K,\n'}
+[12.018827] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/point_cloud.h:50\x1b[m\x1b[K,\n'}
+[12.018855] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/lib/common_lib.h:5\x1b[m\x1b[K,\n'}
+[12.018885] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/include/utility.h:16\x1b[m\x1b[K,\n'}
+[12.018915] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:1\x1b[m\x1b[K:\n'}
+[12.018942] (liorf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:30:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing uint16_t = uint16_t\x1b[m\x1b[K\xe2\x80\x99 is deprecated: use std::uint16_t instead of pcl::uint16_t [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[12.018971] (liorf) StderrLine: {'line': b'   30 |     (uint8_t, ring, ring) (\x1b[01;35m\x1b[Kuint16_t\x1b[m\x1b[K, noise, noise) (uint32_t, range, range)\n'}
+[12.018999] (liorf) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.019026] (liorf) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/PCLHeader.h:10\x1b[m\x1b[K,\n'}
+[12.019053] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/point_cloud.h:47\x1b[m\x1b[K,\n'}
+[12.019092] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/lib/common_lib.h:5\x1b[m\x1b[K,\n'}
+[12.019135] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/include/utility.h:16\x1b[m\x1b[K,\n'}
+[12.019166] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:1\x1b[m\x1b[K:\n'}
+[12.019194] (liorf) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/pcl_macros.h:94:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[12.019222] (liorf) StderrLine: {'line': b'   94 |   using \x1b[01;36m\x1b[Kuint16_t\x1b[m\x1b[K [[deprecated("use std::uint16_t instead of pcl::uint16_t")]] = std::uint16_t;\n'}
+[12.019257] (liorf) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.019314] (liorf) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/preprocessor/tuple/elem.hpp:23\x1b[m\x1b[K,\n'}
+[12.019345] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21\x1b[m\x1b[K,\n'}
+[12.019374] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66\x1b[m\x1b[K,\n'}
+[12.019403] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/aux_/na_spec.hpp:28\x1b[m\x1b[K,\n'}
+[12.019432] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/not.hpp:20\x1b[m\x1b[K,\n'}
+[12.019460] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/assert.hpp:17\x1b[m\x1b[K,\n'}
+[12.019488] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/point_traits.h:48\x1b[m\x1b[K,\n'}
+[12.019516] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/point_cloud.h:50\x1b[m\x1b[K,\n'}
+[12.019543] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/lib/common_lib.h:5\x1b[m\x1b[K,\n'}
+[12.019570] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/include/utility.h:16\x1b[m\x1b[K,\n'}
+[12.019598] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:1\x1b[m\x1b[K:\n'}
+[12.019625] (liorf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:30:53:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing uint32_t = uint32_t\x1b[m\x1b[K\xe2\x80\x99 is deprecated: use std::uint32_t instead of pcl::uint32_t [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[12.019654] (liorf) StderrLine: {'line': b'   30 |     (uint8_t, ring, ring) (uint16_t, noise, noise) (\x1b[01;35m\x1b[Kuint32_t\x1b[m\x1b[K, range, range)\n'}
+[12.019680] (liorf) StderrLine: {'line': b'      |                                                     \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.019707] (liorf) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/PCLHeader.h:10\x1b[m\x1b[K,\n'}
+[12.019733] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/point_cloud.h:47\x1b[m\x1b[K,\n'}
+[12.019759] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/lib/common_lib.h:5\x1b[m\x1b[K,\n'}
+[12.019790] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/include/utility.h:16\x1b[m\x1b[K,\n'}
+[12.019818] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:1\x1b[m\x1b[K:\n'}
+[12.019845] (liorf) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/pcl_macros.h:96:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[12.019873] (liorf) StderrLine: {'line': b'   96 |   using \x1b[01;36m\x1b[Kuint32_t\x1b[m\x1b[K [[deprecated("use std::uint32_t instead of pcl::uint32_t")]] = std::uint32_t;\n'}
+[12.019901] (liorf) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.022209] (liorf) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/preprocessor/tuple/elem.hpp:23\x1b[m\x1b[K,\n'}
+[12.022336] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21\x1b[m\x1b[K,\n'}
+[12.022373] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66\x1b[m\x1b[K,\n'}
+[12.022405] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/aux_/na_spec.hpp:28\x1b[m\x1b[K,\n'}
+[12.022437] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/not.hpp:20\x1b[m\x1b[K,\n'}
+[12.022465] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/assert.hpp:17\x1b[m\x1b[K,\n'}
+[12.022494] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/point_traits.h:48\x1b[m\x1b[K,\n'}
+[12.022521] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/point_cloud.h:50\x1b[m\x1b[K,\n'}
+[12.022551] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/lib/common_lib.h:5\x1b[m\x1b[K,\n'}
+[12.022579] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/include/utility.h:16\x1b[m\x1b[K,\n'}
+[12.022608] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:1\x1b[m\x1b[K:\n'}
+[12.022636] (liorf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:43:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing uint16_t = uint16_t\x1b[m\x1b[K\xe2\x80\x99 is deprecated: use std::uint16_t instead of pcl::uint16_t [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[12.022666] (liorf) StderrLine: {'line': b'   43 |       (\x1b[01;35m\x1b[Kuint16_t\x1b[m\x1b[K, ring, ring)(double, timestamp, timestamp)\n'}
+[12.022694] (liorf) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.022722] (liorf) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/PCLHeader.h:10\x1b[m\x1b[K,\n'}
+[12.022750] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/point_cloud.h:47\x1b[m\x1b[K,\n'}
+[12.022776] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/lib/common_lib.h:5\x1b[m\x1b[K,\n'}
+[12.022803] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/include/utility.h:16\x1b[m\x1b[K,\n'}
+[12.022830] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:1\x1b[m\x1b[K:\n'}
+[12.022857] (liorf) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/pcl_macros.h:94:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[12.022884] (liorf) StderrLine: {'line': b'   94 |   using \x1b[01;36m\x1b[Kuint16_t\x1b[m\x1b[K [[deprecated("use std::uint16_t instead of pcl::uint16_t")]] = std::uint16_t;\n'}
+[12.022911] (liorf) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.027964] (liorf) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/preprocessor/tuple/elem.hpp:23\x1b[m\x1b[K,\n'}
+[12.028128] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21\x1b[m\x1b[K,\n'}
+[12.028165] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66\x1b[m\x1b[K,\n'}
+[12.028197] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/aux_/na_spec.hpp:28\x1b[m\x1b[K,\n'}
+[12.028231] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/not.hpp:20\x1b[m\x1b[K,\n'}
+[12.028262] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/boost/mpl/assert.hpp:17\x1b[m\x1b[K,\n'}
+[12.028314] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/point_traits.h:48\x1b[m\x1b[K,\n'}
+[12.028342] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/point_cloud.h:50\x1b[m\x1b[K,\n'}
+[12.028370] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/lib/common_lib.h:5\x1b[m\x1b[K,\n'}
+[12.028397] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/include/utility.h:16\x1b[m\x1b[K,\n'}
+[12.028425] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:1\x1b[m\x1b[K:\n'}
+[12.028452] (liorf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:56:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing uint32_t = uint32_t\x1b[m\x1b[K\xe2\x80\x99 is deprecated: use std::uint32_t instead of pcl::uint32_t [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[12.028483] (liorf) StderrLine: {'line': b'   56 |      (\x1b[01;35m\x1b[Kuint32_t\x1b[m\x1b[K, t, t) (int, ring, ring)\n'}
+[12.028511] (liorf) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.028537] (liorf) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/PCLHeader.h:10\x1b[m\x1b[K,\n'}
+[12.028565] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/point_cloud.h:47\x1b[m\x1b[K,\n'}
+[12.028592] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/lib/common_lib.h:5\x1b[m\x1b[K,\n'}
+[12.028623] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/include/utility.h:16\x1b[m\x1b[K,\n'}
+[12.028651] (liorf) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:1\x1b[m\x1b[K:\n'}
+[12.028678] (liorf) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.10/pcl/pcl_macros.h:96:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[12.028774] (liorf) StderrLine: {'line': b'   96 |   using \x1b[01;36m\x1b[Kuint32_t\x1b[m\x1b[K [[deprecated("use std::uint32_t instead of pcl::uint32_t")]] = std::uint32_t;\n'}
+[12.028834] (liorf) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.106677] (-) TimerEvent: {}
+[12.208015] (-) TimerEvent: {}
+[12.308611] (-) TimerEvent: {}
+[12.409020] (-) TimerEvent: {}
+[12.510041] (-) TimerEvent: {}
+[12.610926] (-) TimerEvent: {}
+[12.659898] (liorf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/include/Scancontext.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kfloat xy2theta(const float&, const float&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.660072] (liorf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/include/Scancontext.cpp:36:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[12.660114] (liorf) StderrLine: {'line': b'   36 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K // xy2theta\n'}
+[12.660145] (liorf) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[12.711280] (-) TimerEvent: {}
+[12.811743] (-) TimerEvent: {}
+[12.912808] (-) TimerEvent: {}
+[13.020868] (-) TimerEvent: {}
+[13.122150] (-) TimerEvent: {}
+[13.222903] (-) TimerEvent: {}
+[13.323850] (-) TimerEvent: {}
+[13.425695] (-) TimerEvent: {}
+[13.526663] (-) TimerEvent: {}
+[13.627962] (-) TimerEvent: {}
+[13.729047] (-) TimerEvent: {}
+[13.829476] (-) TimerEvent: {}
+[13.929993] (-) TimerEvent: {}
+[14.030825] (-) TimerEvent: {}
+[14.131782] (-) TimerEvent: {}
+[14.232598] (-) TimerEvent: {}
+[14.333392] (-) TimerEvent: {}
+[14.434151] (-) TimerEvent: {}
+[14.534699] (-) TimerEvent: {}
+[14.635890] (-) TimerEvent: {}
+[14.738337] (-) TimerEvent: {}
+[14.839275] (-) TimerEvent: {}
+[14.940185] (-) TimerEvent: {}
+[15.041549] (-) TimerEvent: {}
+[15.142932] (-) TimerEvent: {}
+[15.243956] (-) TimerEvent: {}
+[15.344709] (-) TimerEvent: {}
+[15.445263] (-) TimerEvent: {}
+[15.545693] (-) TimerEvent: {}
+[15.646883] (-) TimerEvent: {}
+[15.748475] (-) TimerEvent: {}
+[15.849361] (-) TimerEvent: {}
+[15.949934] (-) TimerEvent: {}
+[16.050684] (-) TimerEvent: {}
+[16.151563] (-) TimerEvent: {}
+[16.252125] (-) TimerEvent: {}
+[16.353167] (-) TimerEvent: {}
+[16.453702] (-) TimerEvent: {}
+[16.555090] (-) TimerEvent: {}
+[16.614112] (liorf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/imuPreintegration.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTransformFusion::TransformFusion(const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.614284] (liorf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/imuPreintegration.cpp:62:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcatching polymorphic type \xe2\x80\x98\x1b[01m\x1b[Kclass tf2::TransformException\x1b[m\x1b[K\xe2\x80\x99 by value [\x1b[01;35m\x1b[K-Wcatch-value=\x1b[m\x1b[K]\n'}
+[16.614335] (liorf) StderrLine: {'line': b'   62 |             catch (tf2::TransformException \x1b[01;35m\x1b[Kex\x1b[m\x1b[K)\n'}
+[16.614365] (liorf) StderrLine: {'line': b'      |                                            \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[16.655919] (-) TimerEvent: {}
+[16.735966] (liorf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/mapOptmization.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool mapOptimization::saveMapService(std::shared_ptr<liorf::srv::SaveMap_Request_<std::allocator<void> > >, std::shared_ptr<liorf::srv::SaveMap_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.736122] (liorf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/mapOptmization.cpp:396:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kunused\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K-Wunused-but-set-variable\x1b[m\x1b[K]\n'}
+[16.736156] (liorf) StderrLine: {'line': b'  396 |       int \x1b[01;35m\x1b[Kunused\x1b[m\x1b[K = system((std::string("exec rm -r ") + saveMapDirectory).c_str());\n'}
+[16.736185] (liorf) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[16.756672] (-) TimerEvent: {}
+[16.765493] (liorf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/mapOptmization.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid mapOptimization::performSCLoopClosure()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.765652] (liorf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/mapOptmization.cpp:646:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KyawDiffRad\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[16.765689] (liorf) StderrLine: {'line': b'  646 |         float \x1b[01;35m\x1b[KyawDiffRad\x1b[m\x1b[K  = detectResult.second; // not use for v1 (because pcl icp withi initial somthing wrong...)\n'}
+[16.765721] (liorf) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.857191] (-) TimerEvent: {}
+[16.880665] (liorf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/mapOptmization.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid mapOptimization::publishFrames()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.880857] (liorf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/mapOptmization.cpp:1786:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KlastSLAMInfoPubSize\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[16.880896] (liorf) StderrLine: {'line': b' 1786 |         static int \x1b[01;35m\x1b[KlastSLAMInfoPubSize\x1b[m\x1b[K = -1;\n'}
+[16.880938] (liorf) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.957584] (-) TimerEvent: {}
+[17.058967] (-) TimerEvent: {}
+[17.160594] (-) TimerEvent: {}
+[17.262078] (-) TimerEvent: {}
+[17.362876] (-) TimerEvent: {}
+[17.463988] (-) TimerEvent: {}
+[17.564378] (-) TimerEvent: {}
+[17.664912] (-) TimerEvent: {}
+[17.765345] (-) TimerEvent: {}
+[17.865708] (-) TimerEvent: {}
+[17.967075] (-) TimerEvent: {}
+[18.068571] (-) TimerEvent: {}
+[18.169609] (-) TimerEvent: {}
+[18.270070] (-) TimerEvent: {}
+[18.370873] (-) TimerEvent: {}
+[18.471434] (-) TimerEvent: {}
+[18.572158] (-) TimerEvent: {}
+[18.672723] (-) TimerEvent: {}
+[18.773503] (-) TimerEvent: {}
+[18.874246] (-) TimerEvent: {}
+[18.974770] (-) TimerEvent: {}
+[19.075416] (-) TimerEvent: {}
+[19.175973] (-) TimerEvent: {}
+[19.277125] (-) TimerEvent: {}
+[19.377882] (-) TimerEvent: {}
+[19.478373] (-) TimerEvent: {}
+[19.578770] (-) TimerEvent: {}
+[19.679256] (-) TimerEvent: {}
+[19.779669] (-) TimerEvent: {}
+[19.880030] (-) TimerEvent: {}
+[19.980310] (-) TimerEvent: {}
+[20.081712] (-) TimerEvent: {}
+[20.182781] (-) TimerEvent: {}
+[20.283555] (-) TimerEvent: {}
+[20.384134] (-) TimerEvent: {}
+[20.484799] (-) TimerEvent: {}
+[20.585990] (-) TimerEvent: {}
+[20.687087] (-) TimerEvent: {}
+[20.787807] (-) TimerEvent: {}
+[20.889481] (-) TimerEvent: {}
+[20.990561] (-) TimerEvent: {}
+[21.091109] (-) TimerEvent: {}
+[21.191383] (-) TimerEvent: {}
+[21.292694] (-) TimerEvent: {}
+[21.393386] (-) TimerEvent: {}
+[21.493979] (-) TimerEvent: {}
+[21.594509] (-) TimerEvent: {}
+[21.695414] (-) TimerEvent: {}
+[21.797053] (-) TimerEvent: {}
+[21.898337] (-) TimerEvent: {}
+[21.999085] (-) TimerEvent: {}
+[22.100441] (-) TimerEvent: {}
+[22.200930] (-) TimerEvent: {}
+[22.301294] (-) TimerEvent: {}
+[22.401702] (-) TimerEvent: {}
+[22.502875] (-) TimerEvent: {}
+[22.603525] (-) TimerEvent: {}
+[22.704948] (-) TimerEvent: {}
+[22.806163] (-) TimerEvent: {}
+[22.906838] (-) TimerEvent: {}
+[23.007788] (-) TimerEvent: {}
+[23.108660] (-) TimerEvent: {}
+[23.209176] (-) TimerEvent: {}
+[23.309747] (-) TimerEvent: {}
+[23.410897] (-) TimerEvent: {}
+[23.511737] (-) TimerEvent: {}
+[23.612148] (-) TimerEvent: {}
+[23.713524] (-) TimerEvent: {}
+[23.814083] (-) TimerEvent: {}
+[23.914865] (-) TimerEvent: {}
+[24.015955] (-) TimerEvent: {}
+[24.116758] (-) TimerEvent: {}
+[24.217652] (-) TimerEvent: {}
+[24.318934] (-) TimerEvent: {}
+[24.419946] (-) TimerEvent: {}
+[24.520355] (-) TimerEvent: {}
+[24.620800] (-) TimerEvent: {}
+[24.721309] (-) TimerEvent: {}
+[24.822790] (-) TimerEvent: {}
+[24.924285] (-) TimerEvent: {}
+[25.025446] (-) TimerEvent: {}
+[25.126680] (-) TimerEvent: {}
+[25.228414] (-) TimerEvent: {}
+[25.329364] (-) TimerEvent: {}
+[25.430820] (-) TimerEvent: {}
+[25.531452] (-) TimerEvent: {}
+[25.633105] (-) TimerEvent: {}
+[25.733611] (-) TimerEvent: {}
+[25.833974] (-) TimerEvent: {}
+[25.934295] (-) TimerEvent: {}
+[26.036537] (-) TimerEvent: {}
+[26.136924] (-) TimerEvent: {}
+[26.237443] (-) TimerEvent: {}
+[26.338282] (-) TimerEvent: {}
+[26.438617] (-) TimerEvent: {}
+[26.539350] (-) TimerEvent: {}
+[26.639872] (-) TimerEvent: {}
+[26.740306] (-) TimerEvent: {}
+[26.841426] (-) TimerEvent: {}
+[26.942070] (-) TimerEvent: {}
+[27.042475] (-) TimerEvent: {}
+[27.142997] (-) TimerEvent: {}
+[27.244278] (-) TimerEvent: {}
+[27.345306] (-) TimerEvent: {}
+[27.446618] (-) TimerEvent: {}
+[27.546919] (-) TimerEvent: {}
+[27.647721] (-) TimerEvent: {}
+[27.748872] (-) TimerEvent: {}
+[27.849775] (-) TimerEvent: {}
+[27.950539] (-) TimerEvent: {}
+[28.051115] (-) TimerEvent: {}
+[28.151594] (-) TimerEvent: {}
+[28.252576] (-) TimerEvent: {}
+[28.353690] (-) TimerEvent: {}
+[28.454312] (-) TimerEvent: {}
+[28.555219] (-) TimerEvent: {}
+[28.655698] (-) TimerEvent: {}
+[28.756434] (-) TimerEvent: {}
+[28.856727] (-) TimerEvent: {}
+[28.957365] (-) TimerEvent: {}
+[29.058114] (-) TimerEvent: {}
+[29.159198] (-) TimerEvent: {}
+[29.259692] (-) TimerEvent: {}
+[29.361627] (-) TimerEvent: {}
+[29.462276] (-) TimerEvent: {}
+[29.562648] (-) TimerEvent: {}
+[29.663550] (-) TimerEvent: {}
+[29.764209] (-) TimerEvent: {}
+[29.864842] (-) TimerEvent: {}
+[29.965247] (-) TimerEvent: {}
+[30.066090] (-) TimerEvent: {}
+[30.167299] (-) TimerEvent: {}
+[30.267778] (-) TimerEvent: {}
+[30.368222] (-) TimerEvent: {}
+[30.469053] (-) TimerEvent: {}
+[30.569543] (-) TimerEvent: {}
+[30.670179] (-) TimerEvent: {}
+[30.770898] (-) TimerEvent: {}
+[30.871192] (-) TimerEvent: {}
+[30.972263] (-) TimerEvent: {}
+[31.073102] (-) TimerEvent: {}
+[31.174660] (-) TimerEvent: {}
+[31.276023] (-) TimerEvent: {}
+[31.377282] (-) TimerEvent: {}
+[31.477555] (-) TimerEvent: {}
+[31.578406] (-) TimerEvent: {}
+[31.678949] (-) TimerEvent: {}
+[31.779494] (-) TimerEvent: {}
+[31.880207] (-) TimerEvent: {}
+[31.980959] (-) TimerEvent: {}
+[32.081694] (-) TimerEvent: {}
+[32.182455] (-) TimerEvent: {}
+[32.282978] (-) TimerEvent: {}
+[32.384630] (-) TimerEvent: {}
+[32.485049] (-) TimerEvent: {}
+[32.585492] (-) TimerEvent: {}
+[32.685986] (-) TimerEvent: {}
+[32.786405] (-) TimerEvent: {}
+[32.887490] (-) TimerEvent: {}
+[32.987849] (-) TimerEvent: {}
+[33.088708] (-) TimerEvent: {}
+[33.189103] (-) TimerEvent: {}
+[33.289471] (-) TimerEvent: {}
+[33.390173] (-) TimerEvent: {}
+[33.490446] (-) TimerEvent: {}
+[33.590902] (-) TimerEvent: {}
+[33.693009] (-) TimerEvent: {}
+[33.793468] (-) TimerEvent: {}
+[33.893987] (-) TimerEvent: {}
+[33.994633] (-) TimerEvent: {}
+[34.095043] (-) TimerEvent: {}
+[34.195402] (-) TimerEvent: {}
+[34.296271] (-) TimerEvent: {}
+[34.397216] (-) TimerEvent: {}
+[34.497707] (-) TimerEvent: {}
+[34.598807] (-) TimerEvent: {}
+[34.699344] (-) TimerEvent: {}
+[34.800579] (-) TimerEvent: {}
+[34.900910] (-) TimerEvent: {}
+[35.001335] (-) TimerEvent: {}
+[35.101702] (-) TimerEvent: {}
+[35.202150] (-) TimerEvent: {}
+[35.302554] (-) TimerEvent: {}
+[35.403003] (-) TimerEvent: {}
+[35.503323] (-) TimerEvent: {}
+[35.603906] (-) TimerEvent: {}
+[35.704263] (-) TimerEvent: {}
+[35.805180] (-) TimerEvent: {}
+[35.920961] (-) TimerEvent: {}
+[36.051957] (-) TimerEvent: {}
+[36.295252] (-) TimerEvent: {}
+[37.338808] (-) TimerEvent: {}
+[38.250174] (-) TimerEvent: {}
+[40.737852] (-) TimerEvent: {}
+[41.550835] (liorf) StderrLine: {'line': b'\x1b[01m\x1b[Kc++:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KKilled signal terminated program cc1plus\n'}
+[41.566594] (-) TimerEvent: {}
+[41.567830] (liorf) StderrLine: {'line': b'compilation terminated.\n'}
+[41.567974] (liorf) StderrLine: {'line': b'make[2]: *** [CMakeFiles/liorf_imuPreintegration.dir/build.make:63: CMakeFiles/liorf_imuPreintegration.dir/src/imuPreintegration.cpp.o] Error 1\n'}
+[41.576248] (liorf) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:127: CMakeFiles/liorf_imuPreintegration.dir/all] Error 2\n'}
+[41.577387] (liorf) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[41.667393] (-) TimerEvent: {}
+[41.769618] (-) TimerEvent: {}
+[41.872331] (-) TimerEvent: {}
+[41.972667] (-) TimerEvent: {}
+[42.074414] (-) TimerEvent: {}
+[42.175057] (-) TimerEvent: {}
+[42.276301] (-) TimerEvent: {}
+[42.376909] (-) TimerEvent: {}
+[42.477342] (-) TimerEvent: {}
+[42.578326] (-) TimerEvent: {}
+[42.679488] (-) TimerEvent: {}
+[42.780037] (-) TimerEvent: {}
+[42.880793] (-) TimerEvent: {}
+[42.981840] (-) TimerEvent: {}
+[43.083273] (-) TimerEvent: {}
+[43.184499] (-) TimerEvent: {}
+[43.285946] (-) TimerEvent: {}
+[43.388137] (-) TimerEvent: {}
+[43.488793] (-) TimerEvent: {}
+[43.590464] (-) TimerEvent: {}
+[43.691663] (-) TimerEvent: {}
+[43.792696] (-) TimerEvent: {}
+[43.893352] (-) TimerEvent: {}
+[43.995363] (-) TimerEvent: {}
+[44.096987] (-) TimerEvent: {}
+[44.198768] (-) TimerEvent: {}
+[44.299486] (-) TimerEvent: {}
+[44.401513] (-) TimerEvent: {}
+[44.503660] (-) TimerEvent: {}
+[44.605049] (-) TimerEvent: {}
+[44.706680] (-) TimerEvent: {}
+[44.808612] (-) TimerEvent: {}
+[44.910067] (-) TimerEvent: {}
+[45.012731] (-) TimerEvent: {}
+[45.113304] (-) TimerEvent: {}
+[45.213647] (-) TimerEvent: {}
+[45.314199] (-) TimerEvent: {}
+[45.414739] (-) TimerEvent: {}
+[45.515241] (-) TimerEvent: {}
+[45.616548] (-) TimerEvent: {}
+[45.718619] (-) TimerEvent: {}
+[45.818977] (-) TimerEvent: {}
+[45.921371] (-) TimerEvent: {}
+[46.022530] (-) TimerEvent: {}
+[46.123170] (-) TimerEvent: {}
+[46.224239] (-) TimerEvent: {}
+[46.325157] (-) TimerEvent: {}
+[46.425757] (-) TimerEvent: {}
+[46.526249] (-) TimerEvent: {}
+[46.627829] (-) TimerEvent: {}
+[46.730530] (-) TimerEvent: {}
+[46.832152] (-) TimerEvent: {}
+[46.932780] (-) TimerEvent: {}
+[47.034066] (-) TimerEvent: {}
+[47.135501] (-) TimerEvent: {}
+[47.236772] (-) TimerEvent: {}
+[47.338697] (-) TimerEvent: {}
+[47.439895] (-) TimerEvent: {}
+[47.541611] (-) TimerEvent: {}
+[47.643341] (-) TimerEvent: {}
+[47.745264] (-) TimerEvent: {}
+[47.846880] (-) TimerEvent: {}
+[47.949264] (-) TimerEvent: {}
+[48.050376] (-) TimerEvent: {}
+[48.150802] (-) TimerEvent: {}
+[48.252394] (-) TimerEvent: {}
+[48.353953] (-) TimerEvent: {}
+[48.454436] (-) TimerEvent: {}
+[48.555149] (-) TimerEvent: {}
+[48.656472] (-) TimerEvent: {}
+[48.758195] (-) TimerEvent: {}
+[48.859164] (-) TimerEvent: {}
+[48.960913] (-) TimerEvent: {}
+[49.063294] (-) TimerEvent: {}
+[49.164904] (-) TimerEvent: {}
+[49.266642] (-) TimerEvent: {}
+[49.367883] (-) TimerEvent: {}
+[49.470282] (-) TimerEvent: {}
+[49.571856] (-) TimerEvent: {}
+[49.674085] (-) TimerEvent: {}
+[49.774856] (-) TimerEvent: {}
+[49.876967] (-) TimerEvent: {}
+[49.978475] (-) TimerEvent: {}
+[50.079651] (-) TimerEvent: {}
+[50.181189] (-) TimerEvent: {}
+[50.282439] (-) TimerEvent: {}
+[50.383430] (-) TimerEvent: {}
+[50.483800] (-) TimerEvent: {}
+[50.506979] (liorf) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable liorf_imageProjection\x1b[0m\n'}
+[50.585038] (-) TimerEvent: {}
+[50.685340] (-) TimerEvent: {}
+[50.786497] (-) TimerEvent: {}
+[50.887803] (-) TimerEvent: {}
+[50.988518] (-) TimerEvent: {}
+[51.089408] (-) TimerEvent: {}
+[51.190933] (-) TimerEvent: {}
+[51.292005] (-) TimerEvent: {}
+[51.393574] (-) TimerEvent: {}
+[51.495025] (-) TimerEvent: {}
+[51.595883] (-) TimerEvent: {}
+[51.632625] (liorf) StdoutLine: {'line': b'[ 95%] Built target liorf_imageProjection\n'}
+[51.696570] (-) TimerEvent: {}
+[51.797783] (-) TimerEvent: {}
+[51.898827] (-) TimerEvent: {}
+[52.001057] (-) TimerEvent: {}
+[52.104548] (-) TimerEvent: {}
+[52.206583] (-) TimerEvent: {}
+[52.306882] (-) TimerEvent: {}
+[52.407937] (-) TimerEvent: {}
+[52.510297] (-) TimerEvent: {}
+[52.611813] (-) TimerEvent: {}
+[52.713904] (-) TimerEvent: {}
+[52.815305] (-) TimerEvent: {}
+[52.916833] (-) TimerEvent: {}
+[53.018110] (-) TimerEvent: {}
+[53.119392] (-) TimerEvent: {}
+[53.221658] (-) TimerEvent: {}
+[53.323235] (-) TimerEvent: {}
+[53.425420] (-) TimerEvent: {}
+[53.527759] (-) TimerEvent: {}
+[53.629775] (-) TimerEvent: {}
+[53.732642] (-) TimerEvent: {}
+[53.835555] (-) TimerEvent: {}
+[53.938512] (-) TimerEvent: {}
+[54.040183] (-) TimerEvent: {}
+[54.142723] (-) TimerEvent: {}
+[54.246028] (-) TimerEvent: {}
+[54.347862] (-) TimerEvent: {}
+[54.448705] (-) TimerEvent: {}
+[54.549690] (-) TimerEvent: {}
+[54.651533] (-) TimerEvent: {}
+[54.752954] (-) TimerEvent: {}
+[54.854338] (-) TimerEvent: {}
+[54.956782] (-) TimerEvent: {}
+[55.059108] (-) TimerEvent: {}
+[55.161608] (-) TimerEvent: {}
+[55.264089] (-) TimerEvent: {}
+[55.367943] (-) TimerEvent: {}
+[55.470557] (-) TimerEvent: {}
+[55.572478] (-) TimerEvent: {}
+[55.674898] (-) TimerEvent: {}
+[55.778366] (-) TimerEvent: {}
+[55.880441] (-) TimerEvent: {}
+[55.981542] (-) TimerEvent: {}
+[56.083726] (-) TimerEvent: {}
+[56.185557] (-) TimerEvent: {}
+[56.288129] (-) TimerEvent: {}
+[56.390837] (-) TimerEvent: {}
+[56.492608] (-) TimerEvent: {}
+[56.596001] (-) TimerEvent: {}
+[56.699610] (-) TimerEvent: {}
+[56.801706] (-) TimerEvent: {}
+[56.904763] (-) TimerEvent: {}
+[57.005016] (-) TimerEvent: {}
+[57.109615] (-) TimerEvent: {}
+[57.211821] (-) TimerEvent: {}
+[57.313216] (-) TimerEvent: {}
+[57.415628] (-) TimerEvent: {}
+[57.516885] (-) TimerEvent: {}
+[57.618440] (-) TimerEvent: {}
+[57.719251] (-) TimerEvent: {}
+[57.820085] (-) TimerEvent: {}
+[57.922339] (-) TimerEvent: {}
+[58.024558] (-) TimerEvent: {}
+[58.127487] (-) TimerEvent: {}
+[58.229824] (-) TimerEvent: {}
+[58.331056] (-) TimerEvent: {}
+[58.433119] (-) TimerEvent: {}
+[58.533434] (-) TimerEvent: {}
+[58.634915] (-) TimerEvent: {}
+[58.735496] (-) TimerEvent: {}
+[58.837254] (-) TimerEvent: {}
+[58.939644] (-) TimerEvent: {}
+[59.039906] (-) TimerEvent: {}
+[59.140236] (-) TimerEvent: {}
+[59.240924] (-) TimerEvent: {}
+[59.344061] (-) TimerEvent: {}
+[59.446048] (-) TimerEvent: {}
+[59.546716] (-) TimerEvent: {}
+[59.648032] (-) TimerEvent: {}
+[59.751944] (-) TimerEvent: {}
+[59.855002] (-) TimerEvent: {}
+[59.959327] (-) TimerEvent: {}
+[60.061452] (-) TimerEvent: {}
+[60.162563] (-) TimerEvent: {}
+[60.265044] (-) TimerEvent: {}
+[60.367366] (-) TimerEvent: {}
+[60.468206] (-) TimerEvent: {}
+[60.568882] (-) TimerEvent: {}
+[60.669148] (-) TimerEvent: {}
+[60.770085] (-) TimerEvent: {}
+[60.871128] (-) TimerEvent: {}
+[60.971818] (-) TimerEvent: {}
+[61.072492] (-) TimerEvent: {}
+[61.174431] (-) TimerEvent: {}
+[61.276946] (-) TimerEvent: {}
+[61.378507] (-) TimerEvent: {}
+[61.479248] (-) TimerEvent: {}
+[61.581407] (-) TimerEvent: {}
+[61.683413] (-) TimerEvent: {}
+[61.783937] (-) TimerEvent: {}
+[61.885240] (-) TimerEvent: {}
+[61.986977] (-) TimerEvent: {}
+[62.088437] (-) TimerEvent: {}
+[62.190191] (-) TimerEvent: {}
+[62.292175] (-) TimerEvent: {}
+[62.395557] (-) TimerEvent: {}
+[62.496993] (-) TimerEvent: {}
+[62.597598] (-) TimerEvent: {}
+[62.699785] (-) TimerEvent: {}
+[62.800359] (-) TimerEvent: {}
+[62.901736] (-) TimerEvent: {}
+[63.003762] (-) TimerEvent: {}
+[63.104981] (-) TimerEvent: {}
+[63.207148] (-) TimerEvent: {}
+[63.308135] (-) TimerEvent: {}
+[63.408472] (-) TimerEvent: {}
+[63.510582] (-) TimerEvent: {}
+[63.613118] (-) TimerEvent: {}
+[63.716164] (-) TimerEvent: {}
+[63.817720] (-) TimerEvent: {}
+[63.920630] (-) TimerEvent: {}
+[64.023334] (-) TimerEvent: {}
+[64.123804] (-) TimerEvent: {}
+[64.225312] (-) TimerEvent: {}
+[64.326993] (-) TimerEvent: {}
+[64.428550] (-) TimerEvent: {}
+[64.530227] (-) TimerEvent: {}
+[64.633995] (-) TimerEvent: {}
+[64.736156] (-) TimerEvent: {}
+[64.838416] (-) TimerEvent: {}
+[64.939050] (-) TimerEvent: {}
+[65.041456] (-) TimerEvent: {}
+[65.143173] (-) TimerEvent: {}
+[65.246428] (-) TimerEvent: {}
+[65.349287] (-) TimerEvent: {}
+[65.451893] (-) TimerEvent: {}
+[65.552723] (-) TimerEvent: {}
+[65.653165] (-) TimerEvent: {}
+[65.756993] (-) TimerEvent: {}
+[65.859071] (-) TimerEvent: {}
+[65.961463] (-) TimerEvent: {}
+[66.062745] (-) TimerEvent: {}
+[66.164172] (-) TimerEvent: {}
+[66.267089] (-) TimerEvent: {}
+[66.368679] (-) TimerEvent: {}
+[66.470522] (-) TimerEvent: {}
+[66.571551] (-) TimerEvent: {}
+[66.673522] (-) TimerEvent: {}
+[66.774353] (-) TimerEvent: {}
+[66.877069] (-) TimerEvent: {}
+[66.978439] (-) TimerEvent: {}
+[67.081587] (-) TimerEvent: {}
+[67.183150] (-) TimerEvent: {}
+[67.285238] (-) TimerEvent: {}
+[67.387511] (-) TimerEvent: {}
+[67.490454] (-) TimerEvent: {}
+[67.591382] (-) TimerEvent: {}
+[67.693438] (-) TimerEvent: {}
+[67.796715] (-) TimerEvent: {}
+[67.898381] (-) TimerEvent: {}
+[68.000231] (-) TimerEvent: {}
+[68.101446] (-) TimerEvent: {}
+[68.203787] (-) TimerEvent: {}
+[68.305840] (-) TimerEvent: {}
+[68.408186] (-) TimerEvent: {}
+[68.508793] (-) TimerEvent: {}
+[68.611031] (-) TimerEvent: {}
+[68.711872] (-) TimerEvent: {}
+[68.812273] (-) TimerEvent: {}
+[68.914479] (-) TimerEvent: {}
+[69.016806] (-) TimerEvent: {}
+[69.118532] (-) TimerEvent: {}
+[69.220377] (-) TimerEvent: {}
+[69.322380] (-) TimerEvent: {}
+[69.426016] (-) TimerEvent: {}
+[69.528289] (-) TimerEvent: {}
+[69.632301] (-) TimerEvent: {}
+[69.736144] (-) TimerEvent: {}
+[69.837895] (-) TimerEvent: {}
+[69.938815] (-) TimerEvent: {}
+[70.039665] (-) TimerEvent: {}
+[70.142716] (-) TimerEvent: {}
+[70.243532] (-) TimerEvent: {}
+[70.344145] (-) TimerEvent: {}
+[70.446429] (-) TimerEvent: {}
+[70.547067] (-) TimerEvent: {}
+[70.649032] (-) TimerEvent: {}
+[70.751563] (-) TimerEvent: {}
+[70.852339] (-) TimerEvent: {}
+[70.953300] (-) TimerEvent: {}
+[71.056514] (-) TimerEvent: {}
+[71.159527] (-) TimerEvent: {}
+[71.262161] (-) TimerEvent: {}
+[71.364532] (-) TimerEvent: {}
+[71.467039] (-) TimerEvent: {}
+[71.569686] (-) TimerEvent: {}
+[71.670409] (-) TimerEvent: {}
+[71.771077] (-) TimerEvent: {}
+[71.873126] (-) TimerEvent: {}
+[71.977007] (-) TimerEvent: {}
+[72.078483] (-) TimerEvent: {}
+[72.178708] (-) TimerEvent: {}
+[72.282229] (-) TimerEvent: {}
+[72.384133] (-) TimerEvent: {}
+[72.485868] (-) TimerEvent: {}
+[72.586419] (-) TimerEvent: {}
+[72.688781] (-) TimerEvent: {}
+[72.790902] (-) TimerEvent: {}
+[72.893127] (-) TimerEvent: {}
+[72.993649] (-) TimerEvent: {}
+[73.095683] (-) TimerEvent: {}
+[73.196462] (-) TimerEvent: {}
+[73.297721] (-) TimerEvent: {}
+[73.400442] (-) TimerEvent: {}
+[73.502751] (-) TimerEvent: {}
+[73.603977] (-) TimerEvent: {}
+[73.704950] (-) TimerEvent: {}
+[73.805719] (-) TimerEvent: {}
+[73.908740] (-) TimerEvent: {}
+[74.011517] (-) TimerEvent: {}
+[74.112312] (-) TimerEvent: {}
+[74.213159] (-) TimerEvent: {}
+[74.316962] (-) TimerEvent: {}
+[74.418907] (-) TimerEvent: {}
+[74.519787] (-) TimerEvent: {}
+[74.621458] (-) TimerEvent: {}
+[74.725081] (-) TimerEvent: {}
+[74.826427] (-) TimerEvent: {}
+[74.928744] (-) TimerEvent: {}
+[75.031523] (-) TimerEvent: {}
+[75.134119] (-) TimerEvent: {}
+[75.235533] (-) TimerEvent: {}
+[75.338390] (-) TimerEvent: {}
+[75.440679] (-) TimerEvent: {}
+[75.540930] (-) TimerEvent: {}
+[75.642042] (-) TimerEvent: {}
+[75.744135] (-) TimerEvent: {}
+[75.846849] (-) TimerEvent: {}
+[75.949701] (-) TimerEvent: {}
+[76.052685] (-) TimerEvent: {}
+[76.155417] (-) TimerEvent: {}
+[76.258392] (-) TimerEvent: {}
+[76.359692] (-) TimerEvent: {}
+[76.462037] (-) TimerEvent: {}
+[76.563899] (-) TimerEvent: {}
+[76.668707] (-) TimerEvent: {}
+[76.770146] (-) TimerEvent: {}
+[76.872333] (-) TimerEvent: {}
+[76.976805] (-) TimerEvent: {}
+[77.080888] (-) TimerEvent: {}
+[77.183052] (-) TimerEvent: {}
+[77.284357] (-) TimerEvent: {}
+[77.385665] (-) TimerEvent: {}
+[77.487004] (-) TimerEvent: {}
+[77.589278] (-) TimerEvent: {}
+[77.691143] (-) TimerEvent: {}
+[77.791839] (-) TimerEvent: {}
+[77.893096] (-) TimerEvent: {}
+[77.994732] (-) TimerEvent: {}
+[78.096637] (-) TimerEvent: {}
+[78.197443] (-) TimerEvent: {}
+[78.299551] (-) TimerEvent: {}
+[78.402133] (-) TimerEvent: {}
+[78.504146] (-) TimerEvent: {}
+[78.604728] (-) TimerEvent: {}
+[78.706360] (-) TimerEvent: {}
+[78.808782] (-) TimerEvent: {}
+[78.909386] (-) TimerEvent: {}
+[79.012547] (-) TimerEvent: {}
+[79.115241] (-) TimerEvent: {}
+[79.220030] (-) TimerEvent: {}
+[79.323740] (-) TimerEvent: {}
+[79.425672] (-) TimerEvent: {}
+[79.527816] (-) TimerEvent: {}
+[79.629948] (-) TimerEvent: {}
+[79.731251] (-) TimerEvent: {}
+[79.831962] (-) TimerEvent: {}
+[79.933217] (-) TimerEvent: {}
+[80.034576] (-) TimerEvent: {}
+[80.136579] (-) TimerEvent: {}
+[80.238862] (-) TimerEvent: {}
+[80.342271] (-) TimerEvent: {}
+[80.444570] (-) TimerEvent: {}
+[80.546557] (-) TimerEvent: {}
+[80.649197] (-) TimerEvent: {}
+[80.752696] (-) TimerEvent: {}
+[80.855522] (-) TimerEvent: {}
+[80.957387] (-) TimerEvent: {}
+[81.059859] (-) TimerEvent: {}
+[81.162207] (-) TimerEvent: {}
+[81.264835] (-) TimerEvent: {}
+[81.366655] (-) TimerEvent: {}
+[81.469463] (-) TimerEvent: {}
+[81.571103] (-) TimerEvent: {}
+[81.672972] (-) TimerEvent: {}
+[81.773452] (-) TimerEvent: {}
+[81.876096] (-) TimerEvent: {}
+[81.976893] (-) TimerEvent: {}
+[82.078433] (-) TimerEvent: {}
+[82.180808] (-) TimerEvent: {}
+[82.283007] (-) TimerEvent: {}
+[82.384826] (-) TimerEvent: {}
+[82.485629] (-) TimerEvent: {}
+[82.588046] (-) TimerEvent: {}
+[82.690076] (-) TimerEvent: {}
+[82.793049] (-) TimerEvent: {}
+[82.895379] (-) TimerEvent: {}
+[82.997487] (-) TimerEvent: {}
+[83.099929] (-) TimerEvent: {}
+[83.202763] (-) TimerEvent: {}
+[83.306441] (-) TimerEvent: {}
+[83.409793] (-) TimerEvent: {}
+[83.513383] (-) TimerEvent: {}
+[83.614930] (-) TimerEvent: {}
+[83.717349] (-) TimerEvent: {}
+[83.819969] (-) TimerEvent: {}
+[83.921915] (-) TimerEvent: {}
+[84.024786] (-) TimerEvent: {}
+[84.127069] (-) TimerEvent: {}
+[84.229714] (-) TimerEvent: {}
+[84.330876] (-) TimerEvent: {}
+[84.432051] (-) TimerEvent: {}
+[84.533795] (-) TimerEvent: {}
+[84.635621] (-) TimerEvent: {}
+[84.738339] (-) TimerEvent: {}
+[84.839642] (-) TimerEvent: {}
+[84.940173] (-) TimerEvent: {}
+[85.041919] (-) TimerEvent: {}
+[85.143571] (-) TimerEvent: {}
+[85.245558] (-) TimerEvent: {}
+[85.348908] (-) TimerEvent: {}
+[85.451228] (-) TimerEvent: {}
+[85.552948] (-) TimerEvent: {}
+[85.654289] (-) TimerEvent: {}
+[85.760668] (-) TimerEvent: {}
+[85.863358] (-) TimerEvent: {}
+[85.964887] (-) TimerEvent: {}
+[86.066870] (-) TimerEvent: {}
+[86.169540] (-) TimerEvent: {}
+[86.271788] (-) TimerEvent: {}
+[86.375037] (-) TimerEvent: {}
+[86.476220] (-) TimerEvent: {}
+[86.577171] (-) TimerEvent: {}
+[86.679020] (-) TimerEvent: {}
+[86.781024] (-) TimerEvent: {}
+[86.884770] (-) TimerEvent: {}
+[86.985830] (-) TimerEvent: {}
+[87.088850] (-) TimerEvent: {}
+[87.191131] (-) TimerEvent: {}
+[87.293433] (-) TimerEvent: {}
+[87.395672] (-) TimerEvent: {}
+[87.497911] (-) TimerEvent: {}
+[87.599799] (-) TimerEvent: {}
+[87.701665] (-) TimerEvent: {}
+[87.804256] (-) TimerEvent: {}
+[87.906021] (-) TimerEvent: {}
+[88.007658] (-) TimerEvent: {}
+[88.111143] (-) TimerEvent: {}
+[88.211999] (-) TimerEvent: {}
+[88.314722] (-) TimerEvent: {}
+[88.416786] (-) TimerEvent: {}
+[88.517985] (-) TimerEvent: {}
+[88.620119] (-) TimerEvent: {}
+[88.721886] (-) TimerEvent: {}
+[88.823706] (-) TimerEvent: {}
+[88.925699] (-) TimerEvent: {}
+[89.026759] (-) TimerEvent: {}
+[89.127888] (-) TimerEvent: {}
+[89.229802] (-) TimerEvent: {}
+[89.331761] (-) TimerEvent: {}
+[89.433968] (-) TimerEvent: {}
+[89.536572] (-) TimerEvent: {}
+[89.639939] (-) TimerEvent: {}
+[89.742643] (-) TimerEvent: {}
+[89.845328] (-) TimerEvent: {}
+[89.947718] (-) TimerEvent: {}
+[90.049919] (-) TimerEvent: {}
+[90.150674] (-) TimerEvent: {}
+[90.251443] (-) TimerEvent: {}
+[90.352588] (-) TimerEvent: {}
+[90.453880] (-) TimerEvent: {}
+[90.554618] (-) TimerEvent: {}
+[90.656483] (-) TimerEvent: {}
+[90.759032] (-) TimerEvent: {}
+[90.860533] (-) TimerEvent: {}
+[90.962131] (-) TimerEvent: {}
+[91.064662] (-) TimerEvent: {}
+[91.167558] (-) TimerEvent: {}
+[91.269118] (-) TimerEvent: {}
+[91.370966] (-) TimerEvent: {}
+[91.473368] (-) TimerEvent: {}
+[91.575577] (-) TimerEvent: {}
+[91.677012] (-) TimerEvent: {}
+[91.778582] (-) TimerEvent: {}
+[91.879981] (-) TimerEvent: {}
+[91.981621] (-) TimerEvent: {}
+[92.084397] (-) TimerEvent: {}
+[92.185409] (-) TimerEvent: {}
+[92.287201] (-) TimerEvent: {}
+[92.389129] (-) TimerEvent: {}
+[92.490781] (-) TimerEvent: {}
+[92.591451] (-) TimerEvent: {}
+[92.693198] (-) TimerEvent: {}
+[92.794743] (-) TimerEvent: {}
+[92.896695] (-) TimerEvent: {}
+[92.999696] (-) TimerEvent: {}
+[93.102053] (-) TimerEvent: {}
+[93.203917] (-) TimerEvent: {}
+[93.306613] (-) TimerEvent: {}
+[93.407638] (-) TimerEvent: {}
+[93.509606] (-) TimerEvent: {}
+[93.611922] (-) TimerEvent: {}
+[93.713850] (-) TimerEvent: {}
+[93.816558] (-) TimerEvent: {}
+[93.918811] (-) TimerEvent: {}
+[94.020817] (-) TimerEvent: {}
+[94.122677] (-) TimerEvent: {}
+[94.223456] (-) TimerEvent: {}
+[94.325333] (-) TimerEvent: {}
+[94.426330] (-) TimerEvent: {}
+[94.527547] (-) TimerEvent: {}
+[94.629121] (-) TimerEvent: {}
+[94.730172] (-) TimerEvent: {}
+[94.831815] (-) TimerEvent: {}
+[94.933902] (-) TimerEvent: {}
+[95.034724] (-) TimerEvent: {}
+[95.136083] (-) TimerEvent: {}
+[95.239172] (-) TimerEvent: {}
+[95.341182] (-) TimerEvent: {}
+[95.443354] (-) TimerEvent: {}
+[95.545395] (-) TimerEvent: {}
+[95.647600] (-) TimerEvent: {}
+[95.749242] (-) TimerEvent: {}
+[95.851520] (-) TimerEvent: {}
+[95.953960] (-) TimerEvent: {}
+[96.055847] (-) TimerEvent: {}
+[96.157512] (-) TimerEvent: {}
+[96.257912] (-) TimerEvent: {}
+[96.359246] (-) TimerEvent: {}
+[96.460394] (-) TimerEvent: {}
+[96.560817] (-) TimerEvent: {}
+[96.662515] (-) TimerEvent: {}
+[96.762861] (-) TimerEvent: {}
+[96.863281] (-) TimerEvent: {}
+[96.964045] (-) TimerEvent: {}
+[97.064572] (-) TimerEvent: {}
+[97.166600] (-) TimerEvent: {}
+[97.267930] (-) TimerEvent: {}
+[97.370169] (-) TimerEvent: {}
+[97.470533] (-) TimerEvent: {}
+[97.571022] (-) TimerEvent: {}
+[97.671931] (-) TimerEvent: {}
+[97.773356] (-) TimerEvent: {}
+[97.874167] (-) TimerEvent: {}
+[97.974626] (-) TimerEvent: {}
+[98.075589] (-) TimerEvent: {}
+[98.178152] (-) TimerEvent: {}
+[98.281585] (-) TimerEvent: {}
+[98.384566] (-) TimerEvent: {}
+[98.484948] (-) TimerEvent: {}
+[98.585788] (-) TimerEvent: {}
+[98.687264] (-) TimerEvent: {}
+[98.789222] (-) TimerEvent: {}
+[98.891492] (-) TimerEvent: {}
+[98.992479] (-) TimerEvent: {}
+[99.093135] (-) TimerEvent: {}
+[99.194996] (-) TimerEvent: {}
+[99.297295] (-) TimerEvent: {}
+[99.400095] (-) TimerEvent: {}
+[99.502935] (-) TimerEvent: {}
+[99.603733] (-) TimerEvent: {}
+[99.707239] (-) TimerEvent: {}
+[99.809060] (-) TimerEvent: {}
+[99.912542] (-) TimerEvent: {}
+[100.015076] (-) TimerEvent: {}
+[100.117534] (-) TimerEvent: {}
+[100.220777] (-) TimerEvent: {}
+[100.323516] (-) TimerEvent: {}
+[100.425410] (-) TimerEvent: {}
+[100.526227] (-) TimerEvent: {}
+[100.627684] (-) TimerEvent: {}
+[100.730338] (-) TimerEvent: {}
+[100.831605] (-) TimerEvent: {}
+[100.932447] (-) TimerEvent: {}
+[101.034903] (-) TimerEvent: {}
+[101.137064] (-) TimerEvent: {}
+[101.237761] (-) TimerEvent: {}
+[101.340737] (-) TimerEvent: {}
+[101.442725] (-) TimerEvent: {}
+[101.545086] (-) TimerEvent: {}
+[101.646967] (-) TimerEvent: {}
+[101.749838] (-) TimerEvent: {}
+[101.851451] (-) TimerEvent: {}
+[101.954305] (-) TimerEvent: {}
+[102.057119] (-) TimerEvent: {}
+[102.158744] (-) TimerEvent: {}
+[102.260210] (-) TimerEvent: {}
+[102.362449] (-) TimerEvent: {}
+[102.464942] (-) TimerEvent: {}
+[102.566668] (-) TimerEvent: {}
+[102.669415] (-) TimerEvent: {}
+[102.772217] (-) TimerEvent: {}
+[102.876007] (-) TimerEvent: {}
+[102.977653] (-) TimerEvent: {}
+[103.079481] (-) TimerEvent: {}
+[103.181481] (-) TimerEvent: {}
+[103.284784] (-) TimerEvent: {}
+[103.387225] (-) TimerEvent: {}
+[103.489409] (-) TimerEvent: {}
+[103.591622] (-) TimerEvent: {}
+[103.693462] (-) TimerEvent: {}
+[103.796917] (-) TimerEvent: {}
+[103.899924] (-) TimerEvent: {}
+[104.001575] (-) TimerEvent: {}
+[104.103742] (-) TimerEvent: {}
+[104.205057] (-) TimerEvent: {}
+[104.306952] (-) TimerEvent: {}
+[104.409330] (-) TimerEvent: {}
+[104.511360] (-) TimerEvent: {}
+[104.614384] (-) TimerEvent: {}
+[104.715877] (-) TimerEvent: {}
+[104.816793] (-) TimerEvent: {}
+[104.918111] (-) TimerEvent: {}
+[105.019092] (-) TimerEvent: {}
+[105.119898] (-) TimerEvent: {}
+[105.221050] (-) TimerEvent: {}
+[105.322136] (-) TimerEvent: {}
+[105.344582] (liorf) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable liorf_mapOptmization\x1b[0m\n'}
+[105.422285] (-) TimerEvent: {}
+[105.522621] (-) TimerEvent: {}
+[105.623020] (-) TimerEvent: {}
+[105.723374] (-) TimerEvent: {}
+[105.823729] (-) TimerEvent: {}
+[105.924050] (-) TimerEvent: {}
+[106.024404] (-) TimerEvent: {}
+[106.124839] (-) TimerEvent: {}
+[106.225148] (-) TimerEvent: {}
+[106.325598] (-) TimerEvent: {}
+[106.425897] (-) TimerEvent: {}
+[106.526220] (-) TimerEvent: {}
+[106.626551] (-) TimerEvent: {}
+[106.727060] (-) TimerEvent: {}
+[106.827945] (-) TimerEvent: {}
+[106.881053] (liorf) StdoutLine: {'line': b'[ 97%] Built target liorf_mapOptmization\n'}
+[106.884710] (liorf) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[106.934606] (-) TimerEvent: {}
+[106.952508] (liorf) CommandEnded: {'returncode': 2}
+[107.040198] (-) TimerEvent: {}
+[107.100934] (liorf) JobEnded: {'identifier': 'liorf', 'rc': 2}
+[107.118052] (-) EventReactorShutdown: {}

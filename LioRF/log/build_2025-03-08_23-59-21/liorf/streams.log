@@ -1,0 +1,481 @@
+[0.007s] Invoking command in '/home/vboxuser/liorf-ros2/build/liorf': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/vboxuser/liorf-ros2/src/liorf -DCMAKE_INSTALL_PREFIX=/home/vboxuser/liorf-ros2/install/liorf
+[0.026s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.049s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.049s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.191s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.195s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.203s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.287s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.313s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.390s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.413s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.476s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.479s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.480s] -- Looking for pthread.h
+[0.534s] -- Looking for pthread.h - found
+[0.534s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.585s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.585s] -- Looking for pthread_create in pthreads
+[0.625s] -- Looking for pthread_create in pthreads - not found
+[0.625s] -- Looking for pthread_create in pthread
+[0.675s] -- Looking for pthread_create in pthread - found
+[0.676s] -- Found Threads: TRUE  
+[0.811s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[0.812s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[0.923s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.978s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[1.029s] -- Found pcl_msgs: 1.0.0 (/opt/ros/foxy/share/pcl_msgs/cmake)
+[1.112s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[1.151s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[1.163s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[1.171s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.175s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[1.468s] -- Found tf2_sensor_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)
+[1.482s] -- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[1.488s] -- Found OpenCV: /usr (found version "4.2.0") 
+[1.498s] -- Checking for module 'eigen3'
+[1.507s] --   Found eigen3, version 3.3.7
+[1.529s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.529s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[1.561s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[1.572s] -- Checking for module 'flann'
+[1.581s] --   Found flann, version 1.9.1
+[1.605s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.646s] -- The imported target "vtkParseOGLExt" references the file
+[1.646s]    "/usr/bin/vtkParseOGLExt-7.1"
+[1.646s] but this file does not exist.  Possible reasons include:
+[1.646s] * The file was deleted, renamed, or moved to another location.
+[1.646s] * An install or uninstall procedure did not complete successfully.
+[1.646s] * The installation package was faulty and contained
+[1.646s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.646s] but not all the files it references.
+[1.646s] 
+[1.647s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[1.647s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[1.647s] but this file does not exist.  Possible reasons include:
+[1.647s] * The file was deleted, renamed, or moved to another location.
+[1.647s] * An install or uninstall procedure did not complete successfully.
+[1.647s] * The installation package was faulty and contained
+[1.647s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.647s] but not all the files it references.
+[1.647s] 
+[1.647s] -- The imported target "vtk" references the file
+[1.647s]    "/usr/bin/vtk"
+[1.647s] but this file does not exist.  Possible reasons include:
+[1.647s] * The file was deleted, renamed, or moved to another location.
+[1.647s] * An install or uninstall procedure did not complete successfully.
+[1.647s] * The installation package was faulty and contained
+[1.647s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.647s] but not all the files it references.
+[1.648s] 
+[1.648s] -- The imported target "pvtk" references the file
+[1.648s]    "/usr/bin/pvtk"
+[1.648s] but this file does not exist.  Possible reasons include:
+[1.648s] * The file was deleted, renamed, or moved to another location.
+[1.648s] * An install or uninstall procedure did not complete successfully.
+[1.648s] * The installation package was faulty and contained
+[1.648s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.648s] but not all the files it references.
+[1.648s] 
+[1.677s] -- Checking for module 'libusb-1.0'
+[1.679s] --   No package 'libusb-1.0' found
+[1.681s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.681s] -- OpenNI disabled because libusb-1.0 not found.
+[1.681s] ** WARNING ** io features related to openni will be disabled
+[1.685s] -- Checking for module 'libusb-1.0'
+[1.686s] --   No package 'libusb-1.0' found
+[1.688s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.688s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[1.689s] ** WARNING ** io features related to openni2 will be disabled
+[1.689s] ** WARNING ** io features related to pcap will be disabled
+[1.689s] ** WARNING ** io features related to png will be disabled
+[1.697s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[1.698s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[1.701s] -- Checking for module 'libusb-1.0'
+[1.703s] --   No package 'libusb-1.0' found
+[1.705s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.705s] -- OpenNI disabled because libusb-1.0 not found.
+[1.705s] ** WARNING ** visualization features related to openni will be disabled
+[1.708s] -- Checking for module 'libusb-1.0'
+[1.710s] --   No package 'libusb-1.0' found
+[1.712s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.712s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[1.712s] ** WARNING ** visualization features related to openni2 will be disabled
+[1.727s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[1.727s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[1.730s] -- Checking for module 'libusb-1.0'
+[1.732s] --   No package 'libusb-1.0' found
+[1.733s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[1.733s] -- OpenNI disabled because libusb-1.0 not found.
+[1.733s] ** WARNING ** apps features related to openni will be disabled
+[1.741s] -- looking for PCL_COMMON
+[1.742s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.742s] -- looking for PCL_KDTREE
+[1.742s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[1.742s] -- looking for PCL_OCTREE
+[1.743s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[1.743s] -- looking for PCL_SEARCH
+[1.743s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[1.744s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.744s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[1.744s] -- looking for PCL_FILTERS
+[1.745s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[1.745s] -- looking for PCL_2D
+[1.745s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[1.746s] -- looking for PCL_GEOMETRY
+[1.746s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[1.746s] -- looking for PCL_IO
+[1.746s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[1.747s] -- looking for PCL_FEATURES
+[1.747s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[1.747s] -- looking for PCL_ML
+[1.748s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[1.748s] -- looking for PCL_SEGMENTATION
+[1.749s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[1.749s] -- looking for PCL_VISUALIZATION
+[1.750s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[1.750s] -- looking for PCL_SURFACE
+[1.750s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[1.751s] -- looking for PCL_REGISTRATION
+[1.751s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[1.751s] -- looking for PCL_KEYPOINTS
+[1.752s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[1.752s] -- looking for PCL_TRACKING
+[1.753s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[1.753s] -- looking for PCL_RECOGNITION
+[1.754s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[1.754s] -- looking for PCL_STEREO
+[1.755s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[1.755s] -- looking for PCL_APPS
+[1.756s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[1.758s] -- looking for PCL_IN_HAND_SCANNER
+[1.758s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[1.758s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.760s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[1.760s] -- looking for PCL_OUTOFCORE
+[1.761s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[1.761s] -- looking for PCL_PEOPLE
+[1.762s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[1.763s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  
+[1.791s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.43") found components: serialization system filesystem thread program_options date_time timer chrono regex atomic 
+[1.792s] -- GTSAM include directory:  /usr/lib/cmake/GTSAM/../../../include
+[1.796s] -- Found Eigen: /usr/include/eigen3  
+[1.796s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[1.970s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[2.025s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[2.026s] -- Found OpenMP: TRUE (found version "4.5")  
+[2.031s] -- Found Boost: /usr/include (found version "1.71.0") found components: timer chrono 
+[2.032s] -- Found GeographicLib: /usr/lib/x86_64-linux-gnu  
+[2.046s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.208s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[2.414s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.513s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.531s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.534s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[2.555s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[2.555s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.555s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.555s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.572s] -- Found PythonExtra: .so  
+[2.798s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.824s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.827s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.829s] -- Configured cppcheck include dirs: /home/vboxuser/liorf-ros2/src/liorf/lib;/home/vboxuser/liorf-ros2/src/liorf/include
+[2.830s] -- Configured cppcheck exclude dirs and/or files: 
+[2.832s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.832s] -- Configured cpplint exclude dirs and/or files: 
+[2.832s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.833s] -- Added test 'lint_cmake' to check CMake code style
+[2.834s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.836s] -- Added test 'uncrustify' to check C / C++ code style
+[2.836s] -- Configured uncrustify additional arguments: 
+[2.837s] -- Added test 'xmllint' to check XML markup files
+[2.842s] -- Configuring done
+[3.045s] -- Generating done
+[3.130s] -- Build files have been written to: /home/vboxuser/liorf-ros2/build/liorf
+[3.142s] Invoked command in '/home/vboxuser/liorf-ros2/build/liorf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/vboxuser/liorf-ros2/src/liorf -DCMAKE_INSTALL_PREFIX=/home/vboxuser/liorf-ros2/install/liorf
+[3.143s] Invoking command in '/home/vboxuser/liorf-ros2/build/liorf': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vboxuser/liorf-ros2/build/liorf -- -j12 -l12
+[3.179s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.179s] [35m[1mScanning dependencies of target liorf__cpp[0m
+[3.187s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.429s] [  4%] Built target liorf__cpp
+[3.432s] [35m[1mScanning dependencies of target liorf__rosidl_generator_c[0m
+[3.436s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.436s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.436s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.458s] [ 14%] [32mBuilding C object CMakeFiles/liorf__rosidl_generator_c.dir/rosidl_generator_c/liorf/srv/detail/save_map__functions.c.o[0m
+[3.458s] [ 12%] [32mBuilding C object CMakeFiles/liorf__rosidl_generator_c.dir/rosidl_generator_c/liorf/msg/detail/cloud_info__functions.c.o[0m
+[3.591s] [ 16%] [32m[1mLinking C shared library libliorf__rosidl_generator_c.so[0m
+[3.623s] [ 16%] Built target liorf__rosidl_generator_c
+[3.633s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.633s] [ 20%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.647s] [35m[1mScanning dependencies of target liorf__rosidl_typesupport_cpp[0m
+[3.658s] [35m[1mScanning dependencies of target liorf__rosidl_typesupport_introspection_cpp[0m
+[3.665s] [ 22%] [32mBuilding CXX object CMakeFiles/liorf__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/liorf/srv/save_map__type_support.cpp.o[0m
+[3.665s] [ 24%] [32mBuilding CXX object CMakeFiles/liorf__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/liorf/msg/cloud_info__type_support.cpp.o[0m
+[3.678s] [ 28%] [32mBuilding CXX object CMakeFiles/liorf__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/liorf/msg/detail/cloud_info__type_support.cpp.o[0m
+[3.678s] [ 28%] [32mBuilding CXX object CMakeFiles/liorf__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/liorf/srv/detail/save_map__type_support.cpp.o[0m
+[3.683s] [35m[1mScanning dependencies of target liorf__rosidl_typesupport_fastrtps_cpp[0m
+[3.716s] [ 30%] [32mBuilding CXX object CMakeFiles/liorf__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/liorf/msg/detail/dds_fastrtps/cloud_info__type_support.cpp.o[0m
+[3.719s] [ 32%] [32mBuilding CXX object CMakeFiles/liorf__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/liorf/srv/detail/dds_fastrtps/save_map__type_support.cpp.o[0m
+[3.914s] [35m[1mScanning dependencies of target liorf__rosidl_typesupport_c[0m
+[3.925s] [35m[1mScanning dependencies of target liorf__rosidl_typesupport_introspection_c[0m
+[3.930s] [ 34%] [32mBuilding CXX object CMakeFiles/liorf__rosidl_typesupport_c.dir/rosidl_typesupport_c/liorf/srv/save_map__type_support.cpp.o[0m
+[3.932s] [ 36%] [32mBuilding CXX object CMakeFiles/liorf__rosidl_typesupport_c.dir/rosidl_typesupport_c/liorf/msg/cloud_info__type_support.cpp.o[0m
+[3.946s] [ 38%] [32mBuilding C object CMakeFiles/liorf__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/liorf/srv/detail/save_map__type_support.c.o[0m
+[3.948s] [ 40%] [32mBuilding C object CMakeFiles/liorf__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/liorf/msg/detail/cloud_info__type_support.c.o[0m
+[3.971s] [ 42%] [32m[1mLinking CXX shared library libliorf__rosidl_typesupport_c.so[0m
+[3.986s] [ 44%] [32m[1mLinking CXX shared library libliorf__rosidl_typesupport_cpp.so[0m
+[3.996s] [ 46%] [32m[1mLinking C shared library libliorf__rosidl_typesupport_introspection_c.so[0m
+[4.011s] [ 46%] Built target liorf__rosidl_typesupport_c
+[4.024s] [ 46%] Built target liorf__rosidl_typesupport_introspection_c
+[4.025s] [ 46%] Built target liorf__rosidl_typesupport_cpp
+[4.033s] [35m[1mScanning dependencies of target liorf_imageProjection[0m
+[4.033s] [35m[1mScanning dependencies of target liorf_imuPreintegration[0m
+[4.033s] [35m[1mScanning dependencies of target liorf_mapOptmization[0m
+[4.147s] [ 48%] [32m[1mLinking CXX shared library libliorf__rosidl_typesupport_introspection_cpp.so[0m
+[4.186s] [ 51%] [32m[1mLinking CXX shared library libliorf__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.204s] [ 51%] Built target liorf__rosidl_typesupport_introspection_cpp
+[4.270s] [ 51%] Built target liorf__rosidl_typesupport_fastrtps_cpp
+[4.281s] [ 53%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.299s] [ 59%] [32mBuilding CXX object CMakeFiles/liorf_imuPreintegration.dir/lib/common_lib.cpp.o[0m
+[4.299s] [ 59%] [32mBuilding CXX object CMakeFiles/liorf_imuPreintegration.dir/src/imuPreintegration.cpp.o[0m
+[4.299s] [ 59%] [32mBuilding CXX object CMakeFiles/liorf_imageProjection.dir/src/imageProjection.cpp.o[0m
+[4.302s] [ 61%] [32mBuilding CXX object CMakeFiles/liorf_imageProjection.dir/lib/common_lib.cpp.o[0m
+[4.317s] [ 63%] [32mBuilding CXX object CMakeFiles/liorf_mapOptmization.dir/lib/common_lib.cpp.o[0m
+[4.317s] [ 65%] [32mBuilding CXX object CMakeFiles/liorf_mapOptmization.dir/include/Scancontext.cpp.o[0m
+[4.318s] [ 67%] [32mBuilding CXX object CMakeFiles/liorf_mapOptmization.dir/src/mapOptmization.cpp.o[0m
+[4.585s] [35m[1mScanning dependencies of target liorf__rosidl_typesupport_fastrtps_c[0m
+[4.605s] [ 69%] [32mBuilding CXX object CMakeFiles/liorf__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/liorf/msg/detail/cloud_info__type_support_c.cpp.o[0m
+[4.605s] [ 71%] [32mBuilding CXX object CMakeFiles/liorf__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/liorf/srv/detail/save_map__type_support_c.cpp.o[0m
+[5.047s] [ 73%] [32m[1mLinking CXX shared library libliorf__rosidl_typesupport_fastrtps_c.so[0m
+[5.149s] [ 73%] Built target liorf__rosidl_typesupport_fastrtps_c
+[5.159s] [35m[1mScanning dependencies of target liorf[0m
+[5.174s] [ 73%] Built target liorf
+[5.203s] [35m[1mScanning dependencies of target liorf__py[0m
+[5.215s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.979s] [ 75%] Built target liorf__py
+[5.995s] [35m[1mScanning dependencies of target liorf__python[0m
+[6.059s] [ 79%] [32mBuilding C object CMakeFiles/liorf__python.dir/rosidl_generator_py/liorf/msg/_cloud_info_s.c.o[0m
+[6.059s] [ 79%] [32mBuilding C object CMakeFiles/liorf__python.dir/rosidl_generator_py/liorf/srv/_save_map_s.c.o[0m
+[6.214s] [ 81%] [32m[1mLinking C shared library rosidl_generator_py/liorf/libliorf__python.so[0m
+[6.264s] [ 81%] Built target liorf__python
+[6.278s] [35m[1mScanning dependencies of target liorf__rosidl_typesupport_c__pyext[0m
+[6.278s] [35m[1mScanning dependencies of target liorf__rosidl_typesupport_fastrtps_c__pyext[0m
+[6.279s] [35m[1mScanning dependencies of target liorf__rosidl_typesupport_introspection_c__pyext[0m
+[6.307s] [ 83%] [32mBuilding C object CMakeFiles/liorf__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/liorf/_liorf_s.ep.rosidl_typesupport_c.c.o[0m
+[6.311s] [ 85%] [32mBuilding C object CMakeFiles/liorf__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/liorf/_liorf_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.311s] [ 87%] [32mBuilding C object CMakeFiles/liorf__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/liorf/_liorf_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.468s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/liorf/liorf_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[6.476s] [ 91%] [32m[1mLinking CXX shared library rosidl_generator_py/liorf/liorf_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[6.476s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/liorf/liorf_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[6.523s] [ 93%] Built target liorf__rosidl_typesupport_c__pyext
+[6.527s] [ 93%] Built target liorf__rosidl_typesupport_introspection_c__pyext
+[6.557s] [ 93%] Built target liorf__rosidl_typesupport_fastrtps_c__pyext
+[12.013s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[12.014s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[12.014s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[12.014s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[12.014s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[12.014s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[12.014s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[12.014s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+[12.014s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/lib/common_lib.h:5[m[K,
+[12.014s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/include/utility.h:16[m[K,
+[12.014s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:1[m[K:
+[12.014s] [01m[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:14:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint16_t = uint16_t[m[K’ is deprecated: use std::uint16_t instead of pcl::uint16_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[12.014s]    14 |     ([01;35m[Kuint16_t[m[K, ring, ring) (float, time, time)
+[12.014s]       |      [01;35m[K^~~~~~~~[m[K
+[12.014s] In file included from [01m[K/usr/include/pcl-1.10/pcl/PCLHeader.h:10[m[K,
+[12.014s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:47[m[K,
+[12.014s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/lib/common_lib.h:5[m[K,
+[12.014s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/include/utility.h:16[m[K,
+[12.014s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:1[m[K:
+[12.014s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:94:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[12.014s]    94 |   using [01;36m[Kuint16_t[m[K [[deprecated("use std::uint16_t instead of pcl::uint16_t")]] = std::uint16_t;
+[12.014s]       |         [01;36m[K^~~~~~~~[m[K
+[12.016s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[12.016s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[12.016s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[12.016s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[12.016s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[12.016s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[12.016s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[12.016s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+[12.016s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/lib/common_lib.h:5[m[K,
+[12.016s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/include/utility.h:16[m[K,
+[12.016s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:1[m[K:
+[12.016s] [01m[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:29:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint32_t = uint32_t[m[K’ is deprecated: use std::uint32_t instead of pcl::uint32_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[12.016s]    29 |     ([01;35m[Kuint32_t[m[K, t, t) (uint16_t, reflectivity, reflectivity)
+[12.016s]       |      [01;35m[K^~~~~~~~[m[K
+[12.016s] In file included from [01m[K/usr/include/pcl-1.10/pcl/PCLHeader.h:10[m[K,
+[12.016s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:47[m[K,
+[12.016s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/lib/common_lib.h:5[m[K,
+[12.016s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/include/utility.h:16[m[K,
+[12.016s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:1[m[K:
+[12.017s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:96:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[12.017s]    96 |   using [01;36m[Kuint32_t[m[K [[deprecated("use std::uint32_t instead of pcl::uint32_t")]] = std::uint32_t;
+[12.017s]       |         [01;36m[K^~~~~~~~[m[K
+[12.017s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[12.017s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[12.017s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[12.017s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[12.017s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[12.017s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[12.017s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[12.017s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+[12.017s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/lib/common_lib.h:5[m[K,
+[12.017s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/include/utility.h:16[m[K,
+[12.017s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:1[m[K:
+[12.018s] [01m[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:29:23:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint16_t = uint16_t[m[K’ is deprecated: use std::uint16_t instead of pcl::uint16_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[12.018s]    29 |     (uint32_t, t, t) ([01;35m[Kuint16_t[m[K, reflectivity, reflectivity)
+[12.018s]       |                       [01;35m[K^~~~~~~~[m[K
+[12.018s] In file included from [01m[K/usr/include/pcl-1.10/pcl/PCLHeader.h:10[m[K,
+[12.018s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:47[m[K,
+[12.018s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/lib/common_lib.h:5[m[K,
+[12.018s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/include/utility.h:16[m[K,
+[12.018s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:1[m[K:
+[12.018s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:94:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[12.018s]    94 |   using [01;36m[Kuint16_t[m[K [[deprecated("use std::uint16_t instead of pcl::uint16_t")]] = std::uint16_t;
+[12.018s]       |         [01;36m[K^~~~~~~~[m[K
+[12.018s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[12.018s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[12.018s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[12.018s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[12.018s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[12.018s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[12.018s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[12.018s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+[12.018s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/lib/common_lib.h:5[m[K,
+[12.018s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/include/utility.h:16[m[K,
+[12.018s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:1[m[K:
+[12.018s] [01m[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:30:6:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint8_t = uint8_t[m[K’ is deprecated: use std::uint8_t instead of pcl::uint8_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[12.018s]    30 |     ([01;35m[Kuint8_t[m[K, ring, ring) (uint16_t, noise, noise) (uint32_t, range, range)
+[12.018s]       |      [01;35m[K^~~~~~~[m[K
+[12.018s] In file included from [01m[K/usr/include/pcl-1.10/pcl/PCLHeader.h:10[m[K,
+[12.018s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:47[m[K,
+[12.018s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/lib/common_lib.h:5[m[K,
+[12.018s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/include/utility.h:16[m[K,
+[12.018s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:1[m[K:
+[12.018s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:92:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[12.018s]    92 |   using [01;36m[Kuint8_t[m[K [[deprecated("use std::uint8_t instead of pcl::uint8_t")]] = std::uint8_t;
+[12.019s]       |         [01;36m[K^~~~~~~[m[K
+[12.019s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[12.019s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[12.019s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[12.019s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[12.019s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[12.019s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[12.019s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[12.019s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+[12.019s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/lib/common_lib.h:5[m[K,
+[12.019s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/include/utility.h:16[m[K,
+[12.019s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:1[m[K:
+[12.019s] [01m[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:30:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint16_t = uint16_t[m[K’ is deprecated: use std::uint16_t instead of pcl::uint16_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[12.019s]    30 |     (uint8_t, ring, ring) ([01;35m[Kuint16_t[m[K, noise, noise) (uint32_t, range, range)
+[12.019s]       |                            [01;35m[K^~~~~~~~[m[K
+[12.019s] In file included from [01m[K/usr/include/pcl-1.10/pcl/PCLHeader.h:10[m[K,
+[12.019s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:47[m[K,
+[12.019s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/lib/common_lib.h:5[m[K,
+[12.019s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/include/utility.h:16[m[K,
+[12.019s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:1[m[K:
+[12.019s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:94:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[12.019s]    94 |   using [01;36m[Kuint16_t[m[K [[deprecated("use std::uint16_t instead of pcl::uint16_t")]] = std::uint16_t;
+[12.019s]       |         [01;36m[K^~~~~~~~[m[K
+[12.019s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[12.019s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[12.019s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[12.019s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[12.019s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[12.019s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[12.019s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[12.019s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+[12.019s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/lib/common_lib.h:5[m[K,
+[12.019s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/include/utility.h:16[m[K,
+[12.019s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:1[m[K:
+[12.020s] [01m[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:30:53:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint32_t = uint32_t[m[K’ is deprecated: use std::uint32_t instead of pcl::uint32_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[12.020s]    30 |     (uint8_t, ring, ring) (uint16_t, noise, noise) ([01;35m[Kuint32_t[m[K, range, range)
+[12.020s]       |                                                     [01;35m[K^~~~~~~~[m[K
+[12.020s] In file included from [01m[K/usr/include/pcl-1.10/pcl/PCLHeader.h:10[m[K,
+[12.020s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:47[m[K,
+[12.020s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/lib/common_lib.h:5[m[K,
+[12.020s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/include/utility.h:16[m[K,
+[12.020s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:1[m[K:
+[12.020s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:96:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[12.020s]    96 |   using [01;36m[Kuint32_t[m[K [[deprecated("use std::uint32_t instead of pcl::uint32_t")]] = std::uint32_t;
+[12.020s]       |         [01;36m[K^~~~~~~~[m[K
+[12.022s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[12.022s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[12.022s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[12.022s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[12.022s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[12.022s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[12.022s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[12.022s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+[12.022s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/lib/common_lib.h:5[m[K,
+[12.022s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/include/utility.h:16[m[K,
+[12.023s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:1[m[K:
+[12.023s] [01m[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:43:8:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint16_t = uint16_t[m[K’ is deprecated: use std::uint16_t instead of pcl::uint16_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[12.023s]    43 |       ([01;35m[Kuint16_t[m[K, ring, ring)(double, timestamp, timestamp)
+[12.023s]       |        [01;35m[K^~~~~~~~[m[K
+[12.023s] In file included from [01m[K/usr/include/pcl-1.10/pcl/PCLHeader.h:10[m[K,
+[12.023s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:47[m[K,
+[12.023s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/lib/common_lib.h:5[m[K,
+[12.023s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/include/utility.h:16[m[K,
+[12.023s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:1[m[K:
+[12.023s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:94:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[12.023s]    94 |   using [01;36m[Kuint16_t[m[K [[deprecated("use std::uint16_t instead of pcl::uint16_t")]] = std::uint16_t;
+[12.023s]       |         [01;36m[K^~~~~~~~[m[K
+[12.028s] In file included from [01m[K/usr/include/boost/preprocessor/tuple/elem.hpp:23[m[K,
+[12.028s]                  from [01m[K/usr/include/boost/preprocessor/arithmetic/add.hpp:21[m[K,
+[12.028s]                  from [01m[K/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:66[m[K,
+[12.028s]                  from [01m[K/usr/include/boost/mpl/aux_/na_spec.hpp:28[m[K,
+[12.028s]                  from [01m[K/usr/include/boost/mpl/not.hpp:20[m[K,
+[12.028s]                  from [01m[K/usr/include/boost/mpl/assert.hpp:17[m[K,
+[12.028s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_traits.h:48[m[K,
+[12.028s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:50[m[K,
+[12.028s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/lib/common_lib.h:5[m[K,
+[12.028s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/include/utility.h:16[m[K,
+[12.028s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:1[m[K:
+[12.028s] [01m[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:56:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing uint32_t = uint32_t[m[K’ is deprecated: use std::uint32_t instead of pcl::uint32_t [[01;35m[K-Wdeprecated-declarations[m[K]
+[12.028s]    56 |      ([01;35m[Kuint32_t[m[K, t, t) (int, ring, ring)
+[12.028s]       |       [01;35m[K^~~~~~~~[m[K
+[12.028s] In file included from [01m[K/usr/include/pcl-1.10/pcl/PCLHeader.h:10[m[K,
+[12.028s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:47[m[K,
+[12.028s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/lib/common_lib.h:5[m[K,
+[12.029s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/include/utility.h:16[m[K,
+[12.029s]                  from [01m[K/home/vboxuser/liorf-ros2/src/liorf/src/imageProjection.cpp:1[m[K:
+[12.029s] [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:96:9:[m[K [01;36m[Knote: [m[Kdeclared here
+[12.029s]    96 |   using [01;36m[Kuint32_t[m[K [[deprecated("use std::uint32_t instead of pcl::uint32_t")]] = std::uint32_t;
+[12.029s]       |         [01;36m[K^~~~~~~~[m[K
+[12.660s] [01m[K/home/vboxuser/liorf-ros2/src/liorf/include/Scancontext.cpp:[m[K In function ‘[01m[Kfloat xy2theta(const float&, const float&)[m[K’:
+[12.660s] [01m[K/home/vboxuser/liorf-ros2/src/liorf/include/Scancontext.cpp:36:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+[12.660s]    36 | [01;35m[K}[m[K // xy2theta
+[12.660s]       | [01;35m[K^[m[K
+[16.614s] [01m[K/home/vboxuser/liorf-ros2/src/liorf/src/imuPreintegration.cpp:[m[K In constructor ‘[01m[KTransformFusion::TransformFusion(const rclcpp::NodeOptions&)[m[K’:
+[16.614s] [01m[K/home/vboxuser/liorf-ros2/src/liorf/src/imuPreintegration.cpp:62:44:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass tf2::TransformException[m[K’ by value [[01;35m[K-Wcatch-value=[m[K]
+[16.614s]    62 |             catch (tf2::TransformException [01;35m[Kex[m[K)
+[16.614s]       |                                            [01;35m[K^~[m[K
+[16.736s] [01m[K/home/vboxuser/liorf-ros2/src/liorf/src/mapOptmization.cpp:[m[K In member function ‘[01m[Kbool mapOptimization::saveMapService(std::shared_ptr<liorf::srv::SaveMap_Request_<std::allocator<void> > >, std::shared_ptr<liorf::srv::SaveMap_Response_<std::allocator<void> > >)[m[K’:
+[16.736s] [01m[K/home/vboxuser/liorf-ros2/src/liorf/src/mapOptmization.cpp:396:11:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kunused[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[16.736s]   396 |       int [01;35m[Kunused[m[K = system((std::string("exec rm -r ") + saveMapDirectory).c_str());
+[16.736s]       |           [01;35m[K^~~~~~[m[K
+[16.765s] [01m[K/home/vboxuser/liorf-ros2/src/liorf/src/mapOptmization.cpp:[m[K In member function ‘[01m[Kvoid mapOptimization::performSCLoopClosure()[m[K’:
+[16.766s] [01m[K/home/vboxuser/liorf-ros2/src/liorf/src/mapOptmization.cpp:646:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KyawDiffRad[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[16.766s]   646 |         float [01;35m[KyawDiffRad[m[K  = detectResult.second; // not use for v1 (because pcl icp withi initial somthing wrong...)
+[16.766s]       |               [01;35m[K^~~~~~~~~~[m[K
+[16.881s] [01m[K/home/vboxuser/liorf-ros2/src/liorf/src/mapOptmization.cpp:[m[K In member function ‘[01m[Kvoid mapOptimization::publishFrames()[m[K’:
+[16.881s] [01m[K/home/vboxuser/liorf-ros2/src/liorf/src/mapOptmization.cpp:1786:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KlastSLAMInfoPubSize[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[16.881s]  1786 |         static int [01;35m[KlastSLAMInfoPubSize[m[K = -1;
+[16.881s]       |                    [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[41.563s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[41.568s] compilation terminated.
+[41.568s] make[2]: *** [CMakeFiles/liorf_imuPreintegration.dir/build.make:63: CMakeFiles/liorf_imuPreintegration.dir/src/imuPreintegration.cpp.o] Error 1
+[41.576s] make[1]: *** [CMakeFiles/Makefile2:127: CMakeFiles/liorf_imuPreintegration.dir/all] Error 2
+[41.577s] make[1]: *** Waiting for unfinished jobs....
+[50.507s] [ 95%] [32m[1mLinking CXX executable liorf_imageProjection[0m
+[51.633s] [ 95%] Built target liorf_imageProjection
+[105.345s] [ 97%] [32m[1mLinking CXX executable liorf_mapOptmization[0m
+[106.881s] [ 97%] Built target liorf_mapOptmization
+[106.885s] make: *** [Makefile:141: all] Error 2
+[106.966s] Invoked command in '/home/vboxuser/liorf-ros2/build/liorf' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vboxuser/liorf-ros2/build/liorf -- -j12 -l12

@@ -1,0 +1,8 @@
+[01m[K/home/vboxuser/liorf-ros2/src/liorf/include/Scancontext.cpp:[m[K In function ‘[01m[Kfloat xy2theta(const float&, const float&)[m[K’:
+[01m[K/home/vboxuser/liorf-ros2/src/liorf/include/Scancontext.cpp:36:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+   36 | [01;35m[K}[m[K // xy2theta
+      | [01;35m[K^[m[K
+[01m[K/home/vboxuser/liorf-ros2/src/liorf/src/imuPreintegration.cpp:[m[K In constructor ‘[01m[KTransformFusion::TransformFusion(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/vboxuser/liorf-ros2/src/liorf/src/imuPreintegration.cpp:62:44:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass tf2::TransformException[m[K’ by value [[01;35m[K-Wcatch-value=[m[K]
+   62 |             catch (tf2::TransformException [01;35m[Kex[m[K)
+      |                                            [01;35m[K^~[m[K

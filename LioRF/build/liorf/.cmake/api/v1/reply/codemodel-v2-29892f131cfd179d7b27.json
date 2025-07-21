@@ -1,0 +1,240 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "liorf__py",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/vboxuser/liorf-ros2/build/liorf/liorf__py",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "liorf",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "liorf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-liorf-Release-c242c8d17bc74946e4f0.json",
+					"name" : "liorf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "liorf__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-liorf__cpp-Release-3b3941727fe77474dcf5.json",
+					"name" : "liorf__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "liorf__py::@ba9c0ce296c199e28148",
+					"jsonFile" : "target-liorf__py-Release-5ac2b2cea67740fd544f.json",
+					"name" : "liorf__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "liorf__python::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-liorf__python-Release-5c85bb48443f1c8eef65.json",
+					"name" : "liorf__python",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "liorf__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-liorf__rosidl_generator_c-Release-5a28238a8a77dc751571.json",
+					"name" : "liorf__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "liorf__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-liorf__rosidl_typesupport_c-Release-10a483e8bcb60895e242.json",
+					"name" : "liorf__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "liorf__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-liorf__rosidl_typesupport_c__pyext-Release-66db9ccda9ac88c39e06.json",
+					"name" : "liorf__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "liorf__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-liorf__rosidl_typesupport_cpp-Release-e5732601b3ea7167f974.json",
+					"name" : "liorf__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "liorf__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-liorf__rosidl_typesupport_fastrtps_c-Release-d25871a205061032556d.json",
+					"name" : "liorf__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "liorf__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-liorf__rosidl_typesupport_fastrtps_c__pyext-Release-b99034ac61e6d078210c.json",
+					"name" : "liorf__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "liorf__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-liorf__rosidl_typesupport_fastrtps_cpp-Release-8d7dc2f138158dd2e3b3.json",
+					"name" : "liorf__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "liorf__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-liorf__rosidl_typesupport_introspection_c-Release-8f10d3cddffaf730d88d.json",
+					"name" : "liorf__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "liorf__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-liorf__rosidl_typesupport_introspection_c__pyext-Release-85c43852c564bf69674b.json",
+					"name" : "liorf__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "liorf__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-liorf__rosidl_typesupport_introspection_cpp-Release-ba680e2654dd20d095c4.json",
+					"name" : "liorf__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "liorf_imageProjection::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-liorf_imageProjection-Release-c806b0c3435bade2946e.json",
+					"name" : "liorf_imageProjection",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "liorf_imuPreintegration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-liorf_imuPreintegration-Release-2fe3326f7e900b1b3977.json",
+					"name" : "liorf_imuPreintegration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "liorf_mapOptmization::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-liorf_mapOptmization-Release-e44c7742359388d70c95.json",
+					"name" : "liorf_mapOptmization",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "liorf_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-liorf_uninstall-Release-1769e559462f1d46edda.json",
+					"name" : "liorf_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-96b33b72be205bf88ca5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vboxuser/liorf-ros2/build/liorf",
+		"source" : "/home/vboxuser/liorf-ros2/src/liorf"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

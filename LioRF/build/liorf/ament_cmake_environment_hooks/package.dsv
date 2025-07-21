@@ -1,0 +1,4 @@
+source;share/liorf/local_setup.bash
+source;share/liorf/local_setup.dsv
+source;share/liorf/local_setup.sh
+source;share/liorf/local_setup.zsh

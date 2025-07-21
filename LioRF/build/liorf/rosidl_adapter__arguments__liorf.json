@@ -1,0 +1,7 @@
+{
+  "package_name": "liorf",
+  "non_idl_tuples": [
+    "/home/vboxuser/liorf-ros2/src/liorf:msg/CloudInfo.msg",
+    "/home/vboxuser/liorf-ros2/src/liorf:srv/SaveMap.srv"
+  ]
+}

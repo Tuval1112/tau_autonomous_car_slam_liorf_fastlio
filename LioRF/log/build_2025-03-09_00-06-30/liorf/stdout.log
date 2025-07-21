@@ -1,0 +1,208 @@
+[  2%] Built target liorf__cpp
+[ 10%] Built target liorf__rosidl_generator_c
+[ 18%] Built target liorf__rosidl_typesupport_cpp
+[ 26%] Built target liorf__rosidl_typesupport_introspection_cpp
+[ 34%] Built target liorf__rosidl_typesupport_fastrtps_cpp
+[ 42%] Built target liorf__rosidl_typesupport_c
+[ 51%] Built target liorf__rosidl_typesupport_introspection_c
+[ 59%] Built target liorf__rosidl_typesupport_fastrtps_c
+[35m[1mScanning dependencies of target liorf_mapOptmization[0m
+[35m[1mScanning dependencies of target liorf_imageProjection[0m
+[ 59%] Built target liorf
+[ 61%] [32mBuilding CXX object CMakeFiles/liorf_imuPreintegration.dir/src/imuPreintegration.cpp.o[0m
+[ 63%] Built target liorf__py
+[ 67%] [32mBuilding CXX object CMakeFiles/liorf_imageProjection.dir/src/imageProjection.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/liorf_mapOptmization.dir/include/Scancontext.cpp.o[0m
+[ 73%] Built target liorf__python
+[ 81%] Built target liorf__rosidl_typesupport_c__pyext
+[ 81%] Built target liorf__rosidl_typesupport_introspection_c__pyext
+[ 85%] Built target liorf__rosidl_typesupport_fastrtps_c__pyext
+[ 87%] [32m[1mLinking CXX executable liorf_mapOptmization[0m
+[ 91%] Built target liorf_mapOptmization
+[ 93%] [32m[1mLinking CXX executable liorf_imageProjection[0m
+[ 95%] Built target liorf_imageProjection
+[ 97%] [32m[1mLinking CXX executable liorf_imuPreintegration[0m
+[100%] Built target liorf_imuPreintegration
+-- Install configuration: "Release"
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/ament_index/resource_index/rosidl_interfaces/liorf
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/save_map.h
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail/save_map__functions.c
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail/save_map__type_support.h
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail/save_map__struct.h
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail/save_map__functions.h
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/cloud_info.h
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail/cloud_info__type_support.h
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail/cloud_info__struct.h
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail/cloud_info__functions.h
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail/cloud_info__functions.c
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/environment/library_path.sh
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/environment/library_path.dsv
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/libliorf__rosidl_generator_c.so
+-- Set runtime path of "/home/vboxuser/liorf-ros2/install/liorf/lib/libliorf__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf
+-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv
+-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail/cloud_info__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/libliorf__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/vboxuser/liorf-ros2/install/liorf/lib/libliorf__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf
+-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv
+-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail/dds_fastrtps
+-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail/cloud_info__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail/dds_fastrtps
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/libliorf__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/vboxuser/liorf-ros2/install/liorf/lib/libliorf__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf
+-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv
+-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail/save_map__type_support.c
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail/cloud_info__type_support.c
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail/cloud_info__rosidl_typesupport_introspection_c.h
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/libliorf__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/vboxuser/liorf-ros2/install/liorf/lib/libliorf__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/libliorf__rosidl_typesupport_c.so
+-- Set runtime path of "/home/vboxuser/liorf-ros2/install/liorf/lib/libliorf__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf
+-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/save_map.hpp
+-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail/save_map__builder.hpp
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail/save_map__type_support.hpp
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail/save_map__traits.hpp
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail/save_map__struct.hpp
+-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/cloud_info.hpp
+-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail/cloud_info__type_support.hpp
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail/cloud_info__struct.hpp
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail/cloud_info__traits.hpp
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail/cloud_info__builder.hpp
+-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf
+-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv
+-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail/save_map__type_support.cpp
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg
+-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail/cloud_info__type_support.cpp
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail/cloud_info__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/libliorf__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/vboxuser/liorf-ros2/install/liorf/lib/libliorf__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/libliorf__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/vboxuser/liorf-ros2/install/liorf/lib/libliorf__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/environment/pythonpath.sh
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/environment/pythonpath.dsv
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/python3.8/site-packages/liorf/__init__.py
+Compiling '/home/vboxuser/liorf-ros2/install/liorf/lib/python3.8/site-packages/liorf/__init__.py'...
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/python3.8/site-packages/liorf/msg
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/python3.8/site-packages/liorf/msg/_cloud_info_s.c
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/python3.8/site-packages/liorf/msg/__init__.py
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/python3.8/site-packages/liorf/msg/_cloud_info.py
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/python3.8/site-packages/liorf/srv
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/python3.8/site-packages/liorf/srv/__init__.py
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/python3.8/site-packages/liorf/srv/_save_map.py
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/python3.8/site-packages/liorf/srv/_save_map_s.c
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/python3.8/site-packages/liorf/liorf_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/vboxuser/liorf-ros2/install/liorf/lib/python3.8/site-packages/liorf/liorf_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/python3.8/site-packages/liorf/liorf_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/vboxuser/liorf-ros2/install/liorf/lib/python3.8/site-packages/liorf/liorf_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/python3.8/site-packages/liorf/liorf_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/vboxuser/liorf-ros2/install/liorf/lib/python3.8/site-packages/liorf/liorf_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/libliorf__python.so
+-- Set runtime path of "/home/vboxuser/liorf-ros2/install/liorf/lib/libliorf__python.so" to ""
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/msg/CloudInfo.idl
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/srv/SaveMap.idl
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/msg/CloudInfo.msg
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/srv/SaveMap.srv
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/srv/SaveMap_Request.msg
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/srv/SaveMap_Response.msg
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//launch
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//launch/run_ubran_hongkong.launch.py
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//launch/run_kitti.launch.py
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//launch/run_lio_sam_ouster.launch.py
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//launch/run_M2DGR.launch.py
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//launch/run_lio_sam_identity.launch.py
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//launch/run_lio_sam_default.launch.py
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//launch/run_mulran.launch.py
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//launch/run_lio_sam_livox.launch.py
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//config
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//config/ubran_hongkong.yaml
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//config/lio_sam_ouster.yaml
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//config/M2DGR.yaml
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//config/lio_sam_livox.yaml
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//config/kitti.yaml
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//config/lio_sam_identity.yaml
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//config/mulran.yaml
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//config/lio_sam_default.yaml
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//config/doc
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//config/doc/kitti2bag
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//config/doc/kitti2bag/kitti2bag.py
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//config/doc/kitti2bag/README.md
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//rviz
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//rviz/mapping.rviz
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/liorf/liorf_imageProjection
+-- Set runtime path of "/home/vboxuser/liorf-ros2/install/liorf/lib/liorf/liorf_imageProjection" to ""
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/liorf/liorf_imuPreintegration
+-- Set runtime path of "/home/vboxuser/liorf-ros2/install/liorf/lib/liorf/liorf_imuPreintegration" to ""
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/liorf/liorf_mapOptmization
+-- Set runtime path of "/home/vboxuser/liorf-ros2/install/liorf/lib/liorf/liorf_mapOptmization" to ""
+-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/KDTreeVectorOfVectorsAdaptor.h
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/Scancontext.cpp
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/Scancontext.h
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/tictoc.h
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/nanoflann.hpp
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/utility.h
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/ament_index/resource_index/package_run_dependencies/liorf
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/ament_index/resource_index/parent_prefix_path/liorf
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/environment/ament_prefix_path.sh
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/environment/ament_prefix_path.dsv
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/environment/path.sh
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/environment/path.dsv
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/local_setup.bash
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/local_setup.sh
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/local_setup.zsh
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/local_setup.dsv
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/package.dsv
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/ament_index/resource_index/packages/liorf
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/liorf__rosidl_generator_cExport.cmake
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/liorf__rosidl_generator_cExport-release.cmake
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/liorf__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/liorf__rosidl_typesupport_introspection_cExport-release.cmake
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/liorf__rosidl_typesupport_cExport.cmake
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/liorf__rosidl_typesupport_cExport-release.cmake
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/liorf__rosidl_generator_cppExport.cmake
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/liorf__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/liorf__rosidl_typesupport_introspection_cppExport-release.cmake
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/liorf__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/liorf__rosidl_typesupport_cppExport-release.cmake
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/liorfConfig.cmake
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/liorfConfig-version.cmake
+-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/package.xml

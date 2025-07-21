@@ -1,0 +1,2 @@
+Invoking command in '/home/vboxuser/liorf-ros2/build/liorf': /usr/bin/cmake /home/vboxuser/liorf-ros2/src/liorf -DCMAKE_INSTALL_PREFIX=/home/vboxuser/liorf-ros2/install/liorf
+Invoked command in '/home/vboxuser/liorf-ros2/build/liorf' returned '1': /usr/bin/cmake /home/vboxuser/liorf-ros2/src/liorf -DCMAKE_INSTALL_PREFIX=/home/vboxuser/liorf-ros2/install/liorf

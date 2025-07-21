@@ -1,0 +1,4 @@
+source;share/liorf/environment/ament_prefix_path.sh
+source;share/liorf/environment/library_path.sh
+source;share/liorf/environment/path.sh
+source;share/liorf/environment/pythonpath.sh

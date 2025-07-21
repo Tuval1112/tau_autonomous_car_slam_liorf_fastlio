@@ -1,0 +1,693 @@
+[0.000000] (-) TimerEvent: {}
+[0.000546] (liorf) JobQueued: {'identifier': 'liorf', 'dependencies': OrderedDict()}
+[0.000571] (liorf) JobStarted: {'identifier': 'liorf'}
+[0.014142] (liorf) JobProgress: {'identifier': 'liorf', 'progress': 'cmake'}
+[0.015147] (liorf) JobProgress: {'identifier': 'liorf', 'progress': 'build'}
+[0.015790] (liorf) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vboxuser/liorf-ros2/build/liorf', '--', '-j12', '-l12'], 'cwd': '/home/vboxuser/liorf-ros2/build/liorf', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IL:en'), ('USER', 'vboxuser'), ('SSH_AGENT_PID', '1758'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/vboxuser'), ('OLDPWD', '/home/vboxuser'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1560'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vboxuser/liorf-ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vboxuser'), ('JOURNAL_STREAM', '8:34430'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu20:@/tmp/.ICE-unix/1860,unix/ubuntu20:/tmp/.ICE-unix/1860'), ('INVOCATION_ID', '16a34f6bc6a04a469bc65f7fbf1f5b6c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6c3608eb_6749_40fc_9795_c889940ef1c2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IL'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.141'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/liorf-ros2/build/liorf'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.100140] (-) TimerEvent: {}
+[0.110397] (liorf) StdoutLine: {'line': b'[  2%] Built target liorf__cpp\n'}
+[0.123996] (liorf) StdoutLine: {'line': b'[ 10%] Built target liorf__rosidl_generator_c\n'}
+[0.141631] (liorf) StdoutLine: {'line': b'[ 18%] Built target liorf__rosidl_typesupport_cpp\n'}
+[0.142051] (liorf) StdoutLine: {'line': b'[ 26%] Built target liorf__rosidl_typesupport_introspection_cpp\n'}
+[0.144543] (liorf) StdoutLine: {'line': b'[ 34%] Built target liorf__rosidl_typesupport_fastrtps_cpp\n'}
+[0.153903] (liorf) StdoutLine: {'line': b'[ 42%] Built target liorf__rosidl_typesupport_c\n'}
+[0.158581] (liorf) StdoutLine: {'line': b'[ 51%] Built target liorf__rosidl_typesupport_introspection_c\n'}
+[0.171401] (liorf) StdoutLine: {'line': b'[ 59%] Built target liorf__rosidl_typesupport_fastrtps_c\n'}
+[0.175754] (liorf) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target liorf_mapOptmization\x1b[0m\n'}
+[0.175916] (liorf) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target liorf_imageProjection\x1b[0m\n'}
+[0.188401] (liorf) StdoutLine: {'line': b'[ 59%] Built target liorf\n'}
+[0.194954] (liorf) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/liorf_imuPreintegration.dir/src/imuPreintegration.cpp.o\x1b[0m\n'}
+[0.200252] (-) TimerEvent: {}
+[0.208649] (liorf) StdoutLine: {'line': b'[ 63%] Built target liorf__py\n'}
+[0.232910] (liorf) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/liorf_imageProjection.dir/src/imageProjection.cpp.o\x1b[0m\n'}
+[0.233141] (liorf) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/liorf_mapOptmization.dir/include/Scancontext.cpp.o\x1b[0m\n'}
+[0.233184] (liorf) StdoutLine: {'line': b'[ 73%] Built target liorf__python\n'}
+[0.258754] (liorf) StdoutLine: {'line': b'[ 81%] Built target liorf__rosidl_typesupport_c__pyext\n'}
+[0.259149] (liorf) StdoutLine: {'line': b'[ 81%] Built target liorf__rosidl_typesupport_introspection_c__pyext\n'}
+[0.261116] (liorf) StdoutLine: {'line': b'[ 85%] Built target liorf__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.300789] (-) TimerEvent: {}
+[0.401736] (-) TimerEvent: {}
+[0.502401] (-) TimerEvent: {}
+[0.603090] (-) TimerEvent: {}
+[0.704035] (-) TimerEvent: {}
+[0.805212] (-) TimerEvent: {}
+[0.906239] (-) TimerEvent: {}
+[1.007637] (-) TimerEvent: {}
+[1.108717] (-) TimerEvent: {}
+[1.209393] (-) TimerEvent: {}
+[1.310491] (-) TimerEvent: {}
+[1.411911] (-) TimerEvent: {}
+[1.513216] (-) TimerEvent: {}
+[1.614925] (-) TimerEvent: {}
+[1.715638] (-) TimerEvent: {}
+[1.816776] (-) TimerEvent: {}
+[1.918707] (-) TimerEvent: {}
+[2.020566] (-) TimerEvent: {}
+[2.121533] (-) TimerEvent: {}
+[2.223338] (-) TimerEvent: {}
+[2.324692] (-) TimerEvent: {}
+[2.425785] (-) TimerEvent: {}
+[2.527515] (-) TimerEvent: {}
+[2.629185] (-) TimerEvent: {}
+[2.731016] (-) TimerEvent: {}
+[2.832817] (-) TimerEvent: {}
+[2.933619] (-) TimerEvent: {}
+[3.035974] (-) TimerEvent: {}
+[3.136742] (-) TimerEvent: {}
+[3.239017] (-) TimerEvent: {}
+[3.340335] (-) TimerEvent: {}
+[3.441496] (-) TimerEvent: {}
+[3.543285] (-) TimerEvent: {}
+[3.645053] (-) TimerEvent: {}
+[3.746152] (-) TimerEvent: {}
+[3.847444] (-) TimerEvent: {}
+[3.948866] (-) TimerEvent: {}
+[4.049197] (-) TimerEvent: {}
+[4.150905] (-) TimerEvent: {}
+[4.252672] (-) TimerEvent: {}
+[4.352972] (-) TimerEvent: {}
+[4.453757] (-) TimerEvent: {}
+[4.554307] (-) TimerEvent: {}
+[4.654871] (-) TimerEvent: {}
+[4.755541] (-) TimerEvent: {}
+[4.856158] (-) TimerEvent: {}
+[4.956808] (-) TimerEvent: {}
+[5.058179] (-) TimerEvent: {}
+[5.159548] (-) TimerEvent: {}
+[5.259857] (-) TimerEvent: {}
+[5.361300] (-) TimerEvent: {}
+[5.461954] (-) TimerEvent: {}
+[5.563286] (-) TimerEvent: {}
+[5.663632] (-) TimerEvent: {}
+[5.764712] (-) TimerEvent: {}
+[5.865745] (-) TimerEvent: {}
+[5.966983] (-) TimerEvent: {}
+[6.068389] (-) TimerEvent: {}
+[6.168928] (-) TimerEvent: {}
+[6.269706] (-) TimerEvent: {}
+[6.371268] (-) TimerEvent: {}
+[6.472231] (-) TimerEvent: {}
+[6.574782] (-) TimerEvent: {}
+[6.675577] (-) TimerEvent: {}
+[6.776724] (-) TimerEvent: {}
+[6.877449] (-) TimerEvent: {}
+[6.978728] (-) TimerEvent: {}
+[7.079364] (-) TimerEvent: {}
+[7.097846] (liorf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/include/Scancontext.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kfloat xy2theta(const float&, const float&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.098054] (liorf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/include/Scancontext.cpp:36:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[7.098090] (liorf) StderrLine: {'line': b'   36 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K // xy2theta\n'}
+[7.098120] (liorf) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[7.180642] (-) TimerEvent: {}
+[7.281589] (-) TimerEvent: {}
+[7.382464] (-) TimerEvent: {}
+[7.483210] (-) TimerEvent: {}
+[7.583704] (-) TimerEvent: {}
+[7.685123] (-) TimerEvent: {}
+[7.787044] (-) TimerEvent: {}
+[7.888090] (-) TimerEvent: {}
+[7.989475] (-) TimerEvent: {}
+[8.090392] (-) TimerEvent: {}
+[8.191517] (-) TimerEvent: {}
+[8.292123] (-) TimerEvent: {}
+[8.393575] (-) TimerEvent: {}
+[8.494728] (-) TimerEvent: {}
+[8.596071] (-) TimerEvent: {}
+[8.697191] (-) TimerEvent: {}
+[8.798111] (-) TimerEvent: {}
+[8.898730] (-) TimerEvent: {}
+[8.999062] (-) TimerEvent: {}
+[9.099604] (-) TimerEvent: {}
+[9.200047] (-) TimerEvent: {}
+[9.301902] (-) TimerEvent: {}
+[9.402800] (-) TimerEvent: {}
+[9.503524] (-) TimerEvent: {}
+[9.603922] (-) TimerEvent: {}
+[9.704785] (-) TimerEvent: {}
+[9.805285] (-) TimerEvent: {}
+[9.834402] (liorf) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable liorf_mapOptmization\x1b[0m\n'}
+[9.906266] (-) TimerEvent: {}
+[10.007508] (-) TimerEvent: {}
+[10.109074] (-) TimerEvent: {}
+[10.210358] (-) TimerEvent: {}
+[10.310791] (-) TimerEvent: {}
+[10.321380] (liorf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/imuPreintegration.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTransformFusion::TransformFusion(const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.321562] (liorf) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vboxuser/liorf-ros2/src/liorf/src/imuPreintegration.cpp:62:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcatching polymorphic type \xe2\x80\x98\x1b[01m\x1b[Kclass tf2::TransformException\x1b[m\x1b[K\xe2\x80\x99 by value [\x1b[01;35m\x1b[K-Wcatch-value=\x1b[m\x1b[K]\n'}
+[10.321605] (liorf) StderrLine: {'line': b'   62 |             catch (tf2::TransformException \x1b[01;35m\x1b[Kex\x1b[m\x1b[K)\n'}
+[10.321639] (liorf) StderrLine: {'line': b'      |                                            \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[10.411736] (-) TimerEvent: {}
+[10.512803] (-) TimerEvent: {}
+[10.613908] (-) TimerEvent: {}
+[10.715065] (-) TimerEvent: {}
+[10.816435] (-) TimerEvent: {}
+[10.917129] (-) TimerEvent: {}
+[11.017778] (-) TimerEvent: {}
+[11.118556] (-) TimerEvent: {}
+[11.220268] (-) TimerEvent: {}
+[11.321160] (-) TimerEvent: {}
+[11.422669] (-) TimerEvent: {}
+[11.433129] (liorf) StdoutLine: {'line': b'[ 91%] Built target liorf_mapOptmization\n'}
+[11.523700] (-) TimerEvent: {}
+[11.624871] (-) TimerEvent: {}
+[11.726039] (-) TimerEvent: {}
+[11.826953] (-) TimerEvent: {}
+[11.928278] (-) TimerEvent: {}
+[12.029596] (-) TimerEvent: {}
+[12.130532] (-) TimerEvent: {}
+[12.231716] (-) TimerEvent: {}
+[12.332141] (-) TimerEvent: {}
+[12.433278] (-) TimerEvent: {}
+[12.533566] (-) TimerEvent: {}
+[12.635551] (-) TimerEvent: {}
+[12.736471] (-) TimerEvent: {}
+[12.837402] (-) TimerEvent: {}
+[12.938443] (-) TimerEvent: {}
+[13.039235] (-) TimerEvent: {}
+[13.139916] (-) TimerEvent: {}
+[13.240738] (-) TimerEvent: {}
+[13.342201] (-) TimerEvent: {}
+[13.443522] (-) TimerEvent: {}
+[13.545289] (-) TimerEvent: {}
+[13.646808] (-) TimerEvent: {}
+[13.748318] (-) TimerEvent: {}
+[13.848829] (-) TimerEvent: {}
+[13.949631] (-) TimerEvent: {}
+[14.050281] (-) TimerEvent: {}
+[14.151758] (-) TimerEvent: {}
+[14.253696] (-) TimerEvent: {}
+[14.354581] (-) TimerEvent: {}
+[14.455526] (-) TimerEvent: {}
+[14.556634] (-) TimerEvent: {}
+[14.657908] (-) TimerEvent: {}
+[14.758851] (-) TimerEvent: {}
+[14.859906] (-) TimerEvent: {}
+[14.961075] (-) TimerEvent: {}
+[15.062036] (-) TimerEvent: {}
+[15.162920] (-) TimerEvent: {}
+[15.263470] (-) TimerEvent: {}
+[15.364848] (-) TimerEvent: {}
+[15.465596] (-) TimerEvent: {}
+[15.567085] (-) TimerEvent: {}
+[15.667670] (-) TimerEvent: {}
+[15.769035] (-) TimerEvent: {}
+[15.871377] (-) TimerEvent: {}
+[15.972023] (-) TimerEvent: {}
+[16.072924] (-) TimerEvent: {}
+[16.173849] (-) TimerEvent: {}
+[16.274735] (-) TimerEvent: {}
+[16.375923] (-) TimerEvent: {}
+[16.478621] (-) TimerEvent: {}
+[16.579385] (-) TimerEvent: {}
+[16.681001] (-) TimerEvent: {}
+[16.782397] (-) TimerEvent: {}
+[16.884396] (-) TimerEvent: {}
+[16.985380] (-) TimerEvent: {}
+[17.087043] (-) TimerEvent: {}
+[17.188826] (-) TimerEvent: {}
+[17.290600] (-) TimerEvent: {}
+[17.391528] (-) TimerEvent: {}
+[17.492238] (-) TimerEvent: {}
+[17.593645] (-) TimerEvent: {}
+[17.694603] (-) TimerEvent: {}
+[17.796005] (-) TimerEvent: {}
+[17.897096] (-) TimerEvent: {}
+[17.999332] (-) TimerEvent: {}
+[18.100500] (-) TimerEvent: {}
+[18.201145] (-) TimerEvent: {}
+[18.302082] (-) TimerEvent: {}
+[18.402913] (-) TimerEvent: {}
+[18.503748] (-) TimerEvent: {}
+[18.605422] (-) TimerEvent: {}
+[18.705951] (-) TimerEvent: {}
+[18.806969] (-) TimerEvent: {}
+[18.907785] (-) TimerEvent: {}
+[19.008461] (-) TimerEvent: {}
+[19.109932] (-) TimerEvent: {}
+[19.210443] (-) TimerEvent: {}
+[19.312483] (-) TimerEvent: {}
+[19.413398] (-) TimerEvent: {}
+[19.514885] (-) TimerEvent: {}
+[19.615639] (-) TimerEvent: {}
+[19.716746] (-) TimerEvent: {}
+[19.817722] (-) TimerEvent: {}
+[19.918230] (-) TimerEvent: {}
+[20.019455] (-) TimerEvent: {}
+[20.120498] (-) TimerEvent: {}
+[20.221537] (-) TimerEvent: {}
+[20.323472] (-) TimerEvent: {}
+[20.424595] (-) TimerEvent: {}
+[20.525637] (-) TimerEvent: {}
+[20.626824] (-) TimerEvent: {}
+[20.727891] (-) TimerEvent: {}
+[20.828404] (-) TimerEvent: {}
+[20.929714] (-) TimerEvent: {}
+[21.031385] (-) TimerEvent: {}
+[21.131863] (-) TimerEvent: {}
+[21.232827] (-) TimerEvent: {}
+[21.333539] (-) TimerEvent: {}
+[21.434464] (-) TimerEvent: {}
+[21.535762] (-) TimerEvent: {}
+[21.636538] (-) TimerEvent: {}
+[21.737463] (-) TimerEvent: {}
+[21.838981] (-) TimerEvent: {}
+[21.939837] (-) TimerEvent: {}
+[22.040655] (-) TimerEvent: {}
+[22.142085] (-) TimerEvent: {}
+[22.242698] (-) TimerEvent: {}
+[22.343820] (-) TimerEvent: {}
+[22.445726] (-) TimerEvent: {}
+[22.546855] (-) TimerEvent: {}
+[22.647916] (-) TimerEvent: {}
+[22.748666] (-) TimerEvent: {}
+[22.849747] (-) TimerEvent: {}
+[22.951387] (-) TimerEvent: {}
+[23.052378] (-) TimerEvent: {}
+[23.153372] (-) TimerEvent: {}
+[23.254496] (-) TimerEvent: {}
+[23.355806] (-) TimerEvent: {}
+[23.456830] (-) TimerEvent: {}
+[23.558493] (-) TimerEvent: {}
+[23.659767] (-) TimerEvent: {}
+[23.760798] (-) TimerEvent: {}
+[23.861703] (-) TimerEvent: {}
+[23.963590] (-) TimerEvent: {}
+[24.064369] (-) TimerEvent: {}
+[24.165767] (-) TimerEvent: {}
+[24.267664] (-) TimerEvent: {}
+[24.368606] (-) TimerEvent: {}
+[24.470327] (-) TimerEvent: {}
+[24.572476] (-) TimerEvent: {}
+[24.673746] (-) TimerEvent: {}
+[24.774785] (-) TimerEvent: {}
+[24.875499] (-) TimerEvent: {}
+[24.976612] (-) TimerEvent: {}
+[25.077262] (-) TimerEvent: {}
+[25.178236] (-) TimerEvent: {}
+[25.279837] (-) TimerEvent: {}
+[25.380510] (-) TimerEvent: {}
+[25.481418] (-) TimerEvent: {}
+[25.581859] (-) TimerEvent: {}
+[25.682525] (-) TimerEvent: {}
+[25.783462] (-) TimerEvent: {}
+[25.884479] (-) TimerEvent: {}
+[25.986687] (-) TimerEvent: {}
+[26.087641] (-) TimerEvent: {}
+[26.189478] (-) TimerEvent: {}
+[26.290638] (-) TimerEvent: {}
+[26.391634] (-) TimerEvent: {}
+[26.492606] (-) TimerEvent: {}
+[26.593714] (-) TimerEvent: {}
+[26.694866] (-) TimerEvent: {}
+[26.795919] (-) TimerEvent: {}
+[26.897570] (-) TimerEvent: {}
+[26.997928] (-) TimerEvent: {}
+[27.098331] (-) TimerEvent: {}
+[27.199625] (-) TimerEvent: {}
+[27.300262] (-) TimerEvent: {}
+[27.401487] (-) TimerEvent: {}
+[27.502807] (-) TimerEvent: {}
+[27.604940] (-) TimerEvent: {}
+[27.705383] (-) TimerEvent: {}
+[27.806099] (-) TimerEvent: {}
+[27.907173] (-) TimerEvent: {}
+[28.009021] (-) TimerEvent: {}
+[28.109440] (-) TimerEvent: {}
+[28.210276] (-) TimerEvent: {}
+[28.310977] (-) TimerEvent: {}
+[28.411934] (-) TimerEvent: {}
+[28.512597] (-) TimerEvent: {}
+[28.613330] (-) TimerEvent: {}
+[28.714648] (-) TimerEvent: {}
+[28.815346] (-) TimerEvent: {}
+[28.916927] (-) TimerEvent: {}
+[29.017673] (-) TimerEvent: {}
+[29.118700] (-) TimerEvent: {}
+[29.219717] (-) TimerEvent: {}
+[29.320687] (-) TimerEvent: {}
+[29.421904] (-) TimerEvent: {}
+[29.523523] (-) TimerEvent: {}
+[29.625546] (-) TimerEvent: {}
+[29.726789] (-) TimerEvent: {}
+[29.827497] (-) TimerEvent: {}
+[29.928257] (-) TimerEvent: {}
+[30.028875] (-) TimerEvent: {}
+[30.130240] (-) TimerEvent: {}
+[30.230610] (-) TimerEvent: {}
+[30.331175] (-) TimerEvent: {}
+[30.431793] (-) TimerEvent: {}
+[30.533068] (-) TimerEvent: {}
+[30.634715] (-) TimerEvent: {}
+[30.735194] (-) TimerEvent: {}
+[30.835606] (-) TimerEvent: {}
+[30.936323] (-) TimerEvent: {}
+[31.036794] (-) TimerEvent: {}
+[31.137827] (-) TimerEvent: {}
+[31.238256] (-) TimerEvent: {}
+[31.338662] (-) TimerEvent: {}
+[31.439591] (-) TimerEvent: {}
+[31.540778] (-) TimerEvent: {}
+[31.641672] (-) TimerEvent: {}
+[31.742535] (-) TimerEvent: {}
+[31.843191] (-) TimerEvent: {}
+[31.944667] (-) TimerEvent: {}
+[32.045236] (-) TimerEvent: {}
+[32.145716] (-) TimerEvent: {}
+[32.246141] (-) TimerEvent: {}
+[32.346615] (-) TimerEvent: {}
+[32.447628] (-) TimerEvent: {}
+[32.548003] (-) TimerEvent: {}
+[32.648505] (-) TimerEvent: {}
+[32.749214] (-) TimerEvent: {}
+[32.849920] (-) TimerEvent: {}
+[32.951610] (-) TimerEvent: {}
+[33.053019] (-) TimerEvent: {}
+[33.153897] (-) TimerEvent: {}
+[33.254494] (-) TimerEvent: {}
+[33.356044] (-) TimerEvent: {}
+[33.456733] (-) TimerEvent: {}
+[33.557214] (-) TimerEvent: {}
+[33.657784] (-) TimerEvent: {}
+[33.758569] (-) TimerEvent: {}
+[33.859092] (-) TimerEvent: {}
+[33.960440] (-) TimerEvent: {}
+[34.061073] (-) TimerEvent: {}
+[34.161689] (-) TimerEvent: {}
+[34.262188] (-) TimerEvent: {}
+[34.362723] (-) TimerEvent: {}
+[34.463621] (-) TimerEvent: {}
+[34.549117] (liorf) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable liorf_imageProjection\x1b[0m\n'}
+[34.564275] (-) TimerEvent: {}
+[34.664672] (-) TimerEvent: {}
+[34.764957] (-) TimerEvent: {}
+[34.866296] (-) TimerEvent: {}
+[34.967644] (-) TimerEvent: {}
+[35.068320] (-) TimerEvent: {}
+[35.167541] (liorf) StdoutLine: {'line': b'[ 95%] Built target liorf_imageProjection\n'}
+[35.168977] (-) TimerEvent: {}
+[35.269756] (-) TimerEvent: {}
+[35.370110] (-) TimerEvent: {}
+[35.471294] (-) TimerEvent: {}
+[35.573511] (-) TimerEvent: {}
+[35.675717] (-) TimerEvent: {}
+[35.777178] (-) TimerEvent: {}
+[35.878182] (-) TimerEvent: {}
+[35.979065] (-) TimerEvent: {}
+[36.080001] (-) TimerEvent: {}
+[36.181981] (-) TimerEvent: {}
+[36.283189] (-) TimerEvent: {}
+[36.384651] (-) TimerEvent: {}
+[36.485036] (-) TimerEvent: {}
+[36.586262] (-) TimerEvent: {}
+[36.686996] (-) TimerEvent: {}
+[36.789590] (-) TimerEvent: {}
+[36.892444] (-) TimerEvent: {}
+[36.993207] (-) TimerEvent: {}
+[37.094538] (-) TimerEvent: {}
+[37.195926] (-) TimerEvent: {}
+[37.296809] (-) TimerEvent: {}
+[37.397750] (-) TimerEvent: {}
+[37.499531] (-) TimerEvent: {}
+[37.601029] (-) TimerEvent: {}
+[37.701415] (-) TimerEvent: {}
+[37.802453] (-) TimerEvent: {}
+[37.903516] (-) TimerEvent: {}
+[38.005068] (-) TimerEvent: {}
+[38.105745] (-) TimerEvent: {}
+[38.207887] (-) TimerEvent: {}
+[38.309113] (-) TimerEvent: {}
+[38.410554] (-) TimerEvent: {}
+[38.511252] (-) TimerEvent: {}
+[38.613413] (-) TimerEvent: {}
+[38.713858] (-) TimerEvent: {}
+[38.814788] (-) TimerEvent: {}
+[38.915804] (-) TimerEvent: {}
+[39.017192] (-) TimerEvent: {}
+[39.119559] (-) TimerEvent: {}
+[39.219934] (-) TimerEvent: {}
+[39.321412] (-) TimerEvent: {}
+[39.421815] (-) TimerEvent: {}
+[39.524658] (-) TimerEvent: {}
+[39.627044] (-) TimerEvent: {}
+[39.727885] (-) TimerEvent: {}
+[39.829012] (-) TimerEvent: {}
+[39.929861] (-) TimerEvent: {}
+[40.030285] (-) TimerEvent: {}
+[40.130755] (-) TimerEvent: {}
+[40.231786] (-) TimerEvent: {}
+[40.332039] (-) TimerEvent: {}
+[40.433299] (-) TimerEvent: {}
+[40.534432] (-) TimerEvent: {}
+[40.636268] (-) TimerEvent: {}
+[40.739135] (-) TimerEvent: {}
+[40.841444] (-) TimerEvent: {}
+[40.941872] (-) TimerEvent: {}
+[41.042904] (-) TimerEvent: {}
+[41.145000] (-) TimerEvent: {}
+[41.246649] (-) TimerEvent: {}
+[41.347488] (-) TimerEvent: {}
+[41.447945] (-) TimerEvent: {}
+[41.548961] (-) TimerEvent: {}
+[41.649600] (-) TimerEvent: {}
+[41.751927] (-) TimerEvent: {}
+[41.852974] (-) TimerEvent: {}
+[41.954514] (-) TimerEvent: {}
+[42.056059] (-) TimerEvent: {}
+[42.156970] (-) TimerEvent: {}
+[42.258866] (-) TimerEvent: {}
+[42.360513] (-) TimerEvent: {}
+[42.461427] (-) TimerEvent: {}
+[42.562639] (-) TimerEvent: {}
+[42.664028] (-) TimerEvent: {}
+[42.765316] (-) TimerEvent: {}
+[42.867211] (-) TimerEvent: {}
+[42.967913] (-) TimerEvent: {}
+[43.068787] (-) TimerEvent: {}
+[43.170319] (-) TimerEvent: {}
+[43.272572] (-) TimerEvent: {}
+[43.374726] (-) TimerEvent: {}
+[43.476221] (-) TimerEvent: {}
+[43.576968] (-) TimerEvent: {}
+[43.677762] (-) TimerEvent: {}
+[43.778034] (-) TimerEvent: {}
+[43.879136] (-) TimerEvent: {}
+[43.980727] (-) TimerEvent: {}
+[44.082448] (-) TimerEvent: {}
+[44.183755] (-) TimerEvent: {}
+[44.285784] (-) TimerEvent: {}
+[44.387984] (-) TimerEvent: {}
+[44.490407] (-) TimerEvent: {}
+[44.592459] (-) TimerEvent: {}
+[44.693774] (-) TimerEvent: {}
+[44.795637] (-) TimerEvent: {}
+[44.897661] (-) TimerEvent: {}
+[44.999566] (-) TimerEvent: {}
+[45.101630] (-) TimerEvent: {}
+[45.202873] (-) TimerEvent: {}
+[45.303983] (-) TimerEvent: {}
+[45.405950] (-) TimerEvent: {}
+[45.507837] (-) TimerEvent: {}
+[45.609309] (-) TimerEvent: {}
+[45.709860] (-) TimerEvent: {}
+[45.812081] (-) TimerEvent: {}
+[45.913637] (-) TimerEvent: {}
+[45.956047] (liorf) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable liorf_imuPreintegration\x1b[0m\n'}
+[46.014052] (-) TimerEvent: {}
+[46.114426] (-) TimerEvent: {}
+[46.214849] (-) TimerEvent: {}
+[46.316157] (-) TimerEvent: {}
+[46.417086] (-) TimerEvent: {}
+[46.518685] (-) TimerEvent: {}
+[46.619470] (-) TimerEvent: {}
+[46.720430] (-) TimerEvent: {}
+[46.809927] (liorf) StdoutLine: {'line': b'[100%] Built target liorf_imuPreintegration\n'}
+[46.818376] (liorf) CommandEnded: {'returncode': 0}
+[46.821425] (liorf) JobProgress: {'identifier': 'liorf', 'progress': 'install'}
+[46.821494] (-) TimerEvent: {}
+[46.827516] (liorf) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vboxuser/liorf-ros2/build/liorf'], 'cwd': '/home/vboxuser/liorf-ros2/build/liorf', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IL:en'), ('USER', 'vboxuser'), ('SSH_AGENT_PID', '1758'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/vboxuser'), ('OLDPWD', '/home/vboxuser'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1560'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/vboxuser/liorf-ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'vboxuser'), ('JOURNAL_STREAM', '8:34430'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vboxuser'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu20:@/tmp/.ICE-unix/1860,unix/ubuntu20:/tmp/.ICE-unix/1860'), ('INVOCATION_ID', '16a34f6bc6a04a469bc65f7fbf1f5b6c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6c3608eb_6749_40fc_9795_c889940ef1c2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IL'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.141'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vboxuser/liorf-ros2/build/liorf'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[46.837966] (liorf) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[46.838271] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/ament_index/resource_index/rosidl_interfaces/liorf\n'}
+[46.838755] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf\n'}
+[46.838853] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv\n'}
+[46.838893] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/save_map.h\n'}
+[46.839027] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail\n'}
+[46.839084] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail/save_map__functions.c\n'}
+[46.839578] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail/save_map__type_support.h\n'}
+[46.839861] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail/save_map__struct.h\n'}
+[46.840104] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail/save_map__functions.h\n'}
+[46.840395] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg\n'}
+[46.840720] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/rosidl_generator_c__visibility_control.h\n'}
+[46.840807] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/cloud_info.h\n'}
+[46.840993] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail\n'}
+[46.841094] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail/cloud_info__type_support.h\n'}
+[46.841304] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail/cloud_info__struct.h\n'}
+[46.841512] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail/cloud_info__functions.h\n'}
+[46.841726] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail/cloud_info__functions.c\n'}
+[46.842007] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/environment/library_path.sh\n'}
+[46.842279] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/environment/library_path.dsv\n'}
+[46.842565] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/libliorf__rosidl_generator_c.so\n'}
+[46.843075] (liorf) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/liorf-ros2/install/liorf/lib/libliorf__rosidl_generator_c.so" to ""\n'}
+[46.843391] (liorf) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf\n'}
+[46.843478] (liorf) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv\n'}
+[46.843519] (liorf) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail\n'}
+[46.843555] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h\n'}
+[46.843822] (liorf) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg\n'}
+[46.843862] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[46.844300] (liorf) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail\n'}
+[46.844389] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail/cloud_info__rosidl_typesupport_fastrtps_c.h\n'}
+[46.844550] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/libliorf__rosidl_typesupport_fastrtps_c.so\n'}
+[46.845793] (liorf) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/liorf-ros2/install/liorf/lib/libliorf__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[46.845862] (liorf) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf\n'}
+[46.845895] (liorf) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv\n'}
+[46.845926] (liorf) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail\n'}
+[46.846018] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[46.846237] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail/dds_fastrtps\n'}
+[46.846333] (liorf) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg\n'}
+[46.846433] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[46.846471] (liorf) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail\n'}
+[46.846501] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail/cloud_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[46.846605] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail/dds_fastrtps\n'}
+[46.846926] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/libliorf__rosidl_typesupport_fastrtps_cpp.so\n'}
+[46.847831] (liorf) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/liorf-ros2/install/liorf/lib/libliorf__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[46.847961] (liorf) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf\n'}
+[46.848000] (liorf) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv\n'}
+[46.848032] (liorf) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail\n'}
+[46.848062] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail/save_map__type_support.c\n'}
+[46.848243] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail/save_map__rosidl_typesupport_introspection_c.h\n'}
+[46.848542] (liorf) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg\n'}
+[46.848624] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[46.848730] (liorf) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail\n'}
+[46.848781] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail/cloud_info__type_support.c\n'}
+[46.848970] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail/cloud_info__rosidl_typesupport_introspection_c.h\n'}
+[46.849183] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/libliorf__rosidl_typesupport_introspection_c.so\n'}
+[46.849738] (liorf) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/liorf-ros2/install/liorf/lib/libliorf__rosidl_typesupport_introspection_c.so" to ""\n'}
+[46.849863] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/libliorf__rosidl_typesupport_c.so\n'}
+[46.850322] (liorf) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/liorf-ros2/install/liorf/lib/libliorf__rosidl_typesupport_c.so" to ""\n'}
+[46.850540] (liorf) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf\n'}
+[46.850589] (liorf) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv\n'}
+[46.850621] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/save_map.hpp\n'}
+[46.850709] (liorf) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail\n'}
+[46.850758] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail/save_map__builder.hpp\n'}
+[46.850896] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail/save_map__type_support.hpp\n'}
+[46.851057] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail/save_map__traits.hpp\n'}
+[46.851210] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail/save_map__struct.hpp\n'}
+[46.851564] (liorf) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg\n'}
+[46.851628] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[46.851665] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/cloud_info.hpp\n'}
+[46.851750] (liorf) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail\n'}
+[46.851783] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail/cloud_info__type_support.hpp\n'}
+[46.851817] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail/cloud_info__struct.hpp\n'}
+[46.851845] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail/cloud_info__traits.hpp\n'}
+[46.851872] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail/cloud_info__builder.hpp\n'}
+[46.852018] (liorf) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf\n'}
+[46.852133] (liorf) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv\n'}
+[46.852170] (liorf) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail\n'}
+[46.852203] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail/save_map__type_support.cpp\n'}
+[46.852234] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[46.852325] (liorf) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg\n'}
+[46.852384] (liorf) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail\n'}
+[46.852416] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail/cloud_info__type_support.cpp\n'}
+[46.852609] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/liorf/msg/detail/cloud_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[46.853086] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/libliorf__rosidl_typesupport_introspection_cpp.so\n'}
+[46.856154] (liorf) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/liorf-ros2/install/liorf/lib/libliorf__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[46.856371] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/libliorf__rosidl_typesupport_cpp.so\n'}
+[46.856612] (liorf) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/liorf-ros2/install/liorf/lib/libliorf__rosidl_typesupport_cpp.so" to ""\n'}
+[46.856755] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/environment/pythonpath.sh\n'}
+[46.857114] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/environment/pythonpath.dsv\n'}
+[46.857445] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/python3.8/site-packages/liorf/__init__.py\n'}
+[46.878262] (liorf) StdoutLine: {'line': b"Compiling '/home/vboxuser/liorf-ros2/install/liorf/lib/python3.8/site-packages/liorf/__init__.py'...\n"}
+[46.880846] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/python3.8/site-packages/liorf/msg\n'}
+[46.880939] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/python3.8/site-packages/liorf/msg/_cloud_info_s.c\n'}
+[46.881471] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/python3.8/site-packages/liorf/msg/__init__.py\n'}
+[46.882214] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/python3.8/site-packages/liorf/msg/_cloud_info.py\n'}
+[46.883079] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/python3.8/site-packages/liorf/srv\n'}
+[46.883157] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/python3.8/site-packages/liorf/srv/__init__.py\n'}
+[46.883362] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/python3.8/site-packages/liorf/srv/_save_map.py\n'}
+[46.883719] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/python3.8/site-packages/liorf/srv/_save_map_s.c\n'}
+[46.884235] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/python3.8/site-packages/liorf/liorf_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[46.884927] (liorf) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/liorf-ros2/install/liorf/lib/python3.8/site-packages/liorf/liorf_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[46.885156] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/python3.8/site-packages/liorf/liorf_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[46.885961] (liorf) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/liorf-ros2/install/liorf/lib/python3.8/site-packages/liorf/liorf_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[46.886147] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/python3.8/site-packages/liorf/liorf_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[46.886612] (liorf) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/liorf-ros2/install/liorf/lib/python3.8/site-packages/liorf/liorf_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[46.886824] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/libliorf__python.so\n'}
+[46.887199] (liorf) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/liorf-ros2/install/liorf/lib/libliorf__python.so" to ""\n'}
+[46.887559] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/msg/CloudInfo.idl\n'}
+[46.888119] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/srv/SaveMap.idl\n'}
+[46.888418] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/msg/CloudInfo.msg\n'}
+[46.888681] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/srv/SaveMap.srv\n'}
+[46.889072] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/srv/SaveMap_Request.msg\n'}
+[46.889449] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/srv/SaveMap_Response.msg\n'}
+[46.889701] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//launch\n'}
+[46.889913] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//launch/run_ubran_hongkong.launch.py\n'}
+[46.890242] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//launch/run_kitti.launch.py\n'}
+[46.890479] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//launch/run_lio_sam_ouster.launch.py\n'}
+[46.890770] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//launch/run_M2DGR.launch.py\n'}
+[46.890995] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//launch/run_lio_sam_identity.launch.py\n'}
+[46.891286] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//launch/run_lio_sam_default.launch.py\n'}
+[46.891637] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//launch/run_mulran.launch.py\n'}
+[46.891908] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//launch/run_lio_sam_livox.launch.py\n'}
+[46.892110] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//config\n'}
+[46.892322] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//config/ubran_hongkong.yaml\n'}
+[46.892520] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//config/lio_sam_ouster.yaml\n'}
+[46.892668] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//config/M2DGR.yaml\n'}
+[46.892973] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//config/lio_sam_livox.yaml\n'}
+[46.893199] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//config/kitti.yaml\n'}
+[46.893412] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//config/lio_sam_identity.yaml\n'}
+[46.893632] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//config/mulran.yaml\n'}
+[46.893853] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//config/lio_sam_default.yaml\n'}
+[46.894052] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//config/doc\n'}
+[46.894257] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//config/doc/kitti2bag\n'}
+[46.894465] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//config/doc/kitti2bag/kitti2bag.py\n'}
+[46.894809] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//config/doc/kitti2bag/README.md\n'}
+[46.895196] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//rviz\n'}
+[46.895302] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf//rviz/mapping.rviz\n'}
+[46.895602] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/liorf/liorf_imageProjection\n'}
+[46.918061] (liorf) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/liorf-ros2/install/liorf/lib/liorf/liorf_imageProjection" to ""\n'}
+[46.918203] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/liorf/liorf_imuPreintegration\n'}
+[46.922324] (-) TimerEvent: {}
+[46.949424] (liorf) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/liorf-ros2/install/liorf/lib/liorf/liorf_imuPreintegration" to ""\n'}
+[46.949605] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/lib/liorf/liorf_mapOptmization\n'}
+[47.002556] (liorf) StdoutLine: {'line': b'-- Set runtime path of "/home/vboxuser/liorf-ros2/install/liorf/lib/liorf/liorf_mapOptmization" to ""\n'}
+[47.002742] (liorf) StdoutLine: {'line': b'-- Up-to-date: /home/vboxuser/liorf-ros2/install/liorf/include\n'}
+[47.002847] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/KDTreeVectorOfVectorsAdaptor.h\n'}
+[47.002883] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/Scancontext.cpp\n'}
+[47.002914] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/Scancontext.h\n'}
+[47.002942] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/tictoc.h\n'}
+[47.002969] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/nanoflann.hpp\n'}
+[47.002996] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/include/utility.h\n'}
+[47.003024] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/ament_index/resource_index/package_run_dependencies/liorf\n'}
+[47.006122] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/ament_index/resource_index/parent_prefix_path/liorf\n'}
+[47.006791] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/environment/ament_prefix_path.sh\n'}
+[47.007146] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/environment/ament_prefix_path.dsv\n'}
+[47.007788] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/environment/path.sh\n'}
+[47.008145] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/environment/path.dsv\n'}
+[47.008550] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/local_setup.bash\n'}
+[47.008861] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/local_setup.sh\n'}
+[47.009164] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/local_setup.zsh\n'}
+[47.009597] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/local_setup.dsv\n'}
+[47.010018] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/package.dsv\n'}
+[47.010398] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/ament_index/resource_index/packages/liorf\n'}
+[47.011285] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/liorf__rosidl_generator_cExport.cmake\n'}
+[47.011674] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/liorf__rosidl_generator_cExport-release.cmake\n'}
+[47.011984] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/liorf__rosidl_typesupport_introspection_cExport.cmake\n'}
+[47.012267] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/liorf__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[47.012568] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/liorf__rosidl_typesupport_cExport.cmake\n'}
+[47.012854] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/liorf__rosidl_typesupport_cExport-release.cmake\n'}
+[47.013127] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/liorf__rosidl_generator_cppExport.cmake\n'}
+[47.013419] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/liorf__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[47.013682] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/liorf__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[47.013963] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/liorf__rosidl_typesupport_cppExport.cmake\n'}
+[47.014236] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/liorf__rosidl_typesupport_cppExport-release.cmake\n'}
+[47.014486] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/rosidl_cmake-extras.cmake\n'}
+[47.014738] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[47.015115] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[47.015621] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[47.015882] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[47.016287] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[47.016642] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[47.016910] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/liorfConfig.cmake\n'}
+[47.017313] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/cmake/liorfConfig-version.cmake\n'}
+[47.017846] (liorf) StdoutLine: {'line': b'-- Installing: /home/vboxuser/liorf-ros2/install/liorf/share/liorf/package.xml\n'}
+[47.020208] (liorf) CommandEnded: {'returncode': 0}
+[47.022510] (-) TimerEvent: {}
+[47.035223] (liorf) JobEnded: {'identifier': 'liorf', 'rc': 0}
+[47.036000] (-) EventReactorShutdown: {}
