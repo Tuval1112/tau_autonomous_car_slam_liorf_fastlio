@@ -32,8 +32,8 @@ We conducted a comprehensive comparison of multiple SLAM approaches and selected
 - Efficient real-time LiDAR-Inertial Odometry using a Kalman filter.
 - High-speed point cloud registration with incremental KD-tree mapping.
 
-Both were tested on datasets and deployed to the autonomous car for live evaluation.
----
+**Both were tested on datasets and deployed to the autonomous car for live evaluation.
+**---
 
 ##  System Architecture
 
@@ -57,20 +57,4 @@ See the `/docs` folder or our poster for visual diagrams and results.
 
 ### Setup Instructions
 
-```bash
-# Clone repository
-git clone https://github.com/Tuval1112/tau_autonomous_car_slam_liorf_fastlio.git
-cd tau_autonomous_car_slam_liorf_fastlio
-
-# Create workspace
-mkdir -p slam_ws/src
-cp -r . slam_ws/src/
-cd slam_ws
-
-# Install dependencies
-sudo apt update
-rosdep install --from-paths src --ignore-src -r -y
-
-# Build
-colcon build
-source install/setup.bash
+For further instructions for installation see liorf git and FastLio git
