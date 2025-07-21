@@ -14,7 +14,7 @@ This project focuses on integrating real-time SLAM algorithms into a self-drivin
 
 Our goal is to implement and test **LIO-RF** and **Fast-LIO**, two cutting-edge SLAM algorithms, using:
 - **Ouster OS1-128 LiDAR**
-- **Vectornav INS-DL IMU**
+- **INS-DL IMU**
 - **Jetson Nano (on-car)**
 - **KITTI / NCLT datasets** (for simulation & testing)
 ---
