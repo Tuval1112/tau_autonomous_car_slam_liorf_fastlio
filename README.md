@@ -56,5 +56,7 @@ See the `/docs` folder or our poster for visual diagrams and results.
 - Git, CMake, colcon
 
 ### Setup Instructions
-
+clone the git and build them through colcon build.
 For further instructions for installation see liorf git and FastLio git
+liorf git- https://github.com/YJZLuckyBoy/liorf
+fast lio git- https://github.com/hku-mars/FAST_LIO
